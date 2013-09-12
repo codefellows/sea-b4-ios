@@ -44,7 +44,7 @@ static BOOL seeded = FALSE;
     CGFloat h,s,v,a;
     BOOL success = [self getHue:&h saturation:&s brightness:&v alpha:&a];
     assert( success );
-    v /= 2.;
+    v += 0.2;
     v = MIN( v, 1. );
 
     return [UIColor colorWithHue:h saturation:s brightness:v alpha:a];
