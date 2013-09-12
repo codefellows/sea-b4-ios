@@ -15,6 +15,7 @@
 -(void) awakeFromNib
 {
     self.backgroundColor = [UIColor randomColor];
+    [self.backgroundColor lighten];
 }
 
 -(void) populateWithPost:(D2Post*)post
