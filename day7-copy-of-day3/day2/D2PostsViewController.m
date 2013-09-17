@@ -10,6 +10,7 @@
 #import "D2NewPostViewController.h"
 #import "D2Post.h"
 #import "D2PostViewCell.h"
+#import "D2PostFetcher.h"
 
 enum {
     CreateNewPostSection,
@@ -19,169 +20,22 @@ enum {
 
 @interface D2PostsViewController () <NewPostDelegate>
 {
-    NSMutableArray *posts;
+    NSArray *posts;
 }
 @end
 
 @implementation D2PostsViewController
 
-- (void)viewDidLoad
+-(void) viewWillAppear:(BOOL)animated
 {
-    [super viewDidLoad];
+    [super viewWillAppear:animated];
 
-    posts = [NSMutableArray new];
-
-    D2Post *post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"Some Lame Link";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
-
-    post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"Another Lame Link";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
-
-    post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"A Third Lame Link";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
-
-    post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"Yes, Again";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
-
-    post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"Yes, Again";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
-
-    post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"Yes, Again";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
-
-    post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"Yes, Again";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
-
-    post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"Yes, Again";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
-    post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"Yes, Again";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
-    post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"Yes, Again";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
-    post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"Yes, Again";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
-    post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"Yes, Again";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
-    post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"Yes, Again";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
-    post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"Yes, Again";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
-    post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"Yes, Again";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
-    post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"Yes, Again";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
-    post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"Yes, Again";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
-    post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"Yes, Again";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
-    post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"Yes, Again";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
-    post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"Yes, Again";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
-    post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"Yes, Again";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
-    post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"Yes, Again";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
-    post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"Yes, Again";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
-    post = [D2Post new];
-    post.userName = @"Your Mom";
-    post.title = @"Yes, Again";
-    post.content = @"Here's some really lame text. Here's some really lame text. Here's some really lame text. Here's some really lame text.";
-    post.timeStamp = [NSDate date];
-    [posts addObject:post];
+    [[D2PostFetcher postFetcher] fetchPostsAsync:^(NSArray *p) {
+        posts = [p copy];
+        [self.tableView reloadData];
+        NSLog( @"got posts" );
+    }];
+    NSLog( @"finished appearing" );
 }
 
 - (void)didReceiveMemoryWarning
@@ -255,10 +109,10 @@ enum {
 
 -(void) newPostViewController:(D2NewPostViewController *)newPostViewController didCreateNewPost:(D2Post *)post
 {
-    [posts addObject:post];
+    posts = [[D2PostFetcher postFetcher] addPost:post];
     [self.tableView reloadData];
 
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [self.navigationController popToViewController:self animated:YES];
 }
 
 @end

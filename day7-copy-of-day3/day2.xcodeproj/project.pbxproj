@@ -27,6 +27,7 @@
 		C30AD4FF17E0E21A008E026C /* UIView+CloseKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = C30AD4FE17E0E21A008E026C /* UIView+CloseKeyboard.m */; };
 		C30AD50217E0E2B3008E026C /* D2CloseKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C30AD50117E0E2B3008E026C /* D2CloseKeyboardView.m */; };
 		C3D43FBD17E21ED300AA1443 /* UIColor+RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D43FBC17E21ED300AA1443 /* UIColor+RandomColor.m */; };
+		C3D4405917E8BA2300AA1443 /* D2PostFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4405817E8BA2300AA1443 /* D2PostFetcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,8 @@
 		C30AD50117E0E2B3008E026C /* D2CloseKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = D2CloseKeyboardView.m; sourceTree = "<group>"; };
 		C3D43FBB17E21ED300AA1443 /* UIColor+RandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RandomColor.h"; sourceTree = "<group>"; };
 		C3D43FBC17E21ED300AA1443 /* UIColor+RandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RandomColor.m"; sourceTree = "<group>"; };
+		C3D4405717E8BA2300AA1443 /* D2PostFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = D2PostFetcher.h; sourceTree = "<group>"; };
+		C3D4405817E8BA2300AA1443 /* D2PostFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = D2PostFetcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +148,8 @@
 				C3D43FBC17E21ED300AA1443 /* UIColor+RandomColor.m */,
 				C30AD4F417E0CBCB008E026C /* D2Post.h */,
 				C30AD4F517E0CBCB008E026C /* D2Post.m */,
+				C3D4405717E8BA2300AA1443 /* D2PostFetcher.h */,
+				C3D4405817E8BA2300AA1443 /* D2PostFetcher.m */,
 				C30AD4F717E0CC40008E026C /* D2PostViewCell.h */,
 				C30AD4F817E0CC40008E026C /* D2PostViewCell.m */,
 				C30AD4D717E0CB92008E026C /* Images.xcassets */,
@@ -287,6 +292,7 @@
 				C30AD4F917E0CC40008E026C /* D2PostViewCell.m in Sources */,
 				C30AD4CC17E0CB92008E026C /* main.m in Sources */,
 				C30AD4FC17E0D1CC008E026C /* D2NewPostViewController.m in Sources */,
+				C3D4405917E8BA2300AA1443 /* D2PostFetcher.m in Sources */,
 				C30AD4D617E0CB92008E026C /* D2PostsViewController.m in Sources */,
 				C30AD4F617E0CBCC008E026C /* D2Post.m in Sources */,
 			);
