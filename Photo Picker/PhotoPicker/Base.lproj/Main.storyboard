@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="13A584" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Hjo-yk-ANI">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--Image Picker View Controller - UIImagePickerController-->
+        <scene sceneID="rgo-ZB-hDa">
+            <objects>
+                <viewController id="gqw-lh-5eQ" customClass="AVImagePickerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="V17-TB-j3C"/>
+                        <viewControllerLayoutGuide type="bottom" id="mgC-4q-uqQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yEH-cY-anY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nD3-Be-Wro">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="45L-QZ-ecp"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="UIImagePickerController" id="bqE-7D-Yca">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="camera" id="mPS-E6-XxS">
+                                            <connections>
+                                                <action selector="takePicture:" destination="gqw-lh-5eQ" id="McP-HA-CmR"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5Ru-yM-mc5">
+                                <rect key="frame" x="0.0" y="44" width="320" height="473"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mgC-4q-uqQ" firstAttribute="top" secondItem="5Ru-yM-mc5" secondAttribute="bottom" constant="2" id="0WQ-ya-Yzr"/>
+                            <constraint firstItem="nD3-Be-Wro" firstAttribute="leading" secondItem="yEH-cY-anY" secondAttribute="leading" id="5fE-ui-hhA"/>
+                            <constraint firstItem="nD3-Be-Wro" firstAttribute="top" secondItem="yEH-cY-anY" secondAttribute="top" id="BvK-UJ-GlO"/>
+                            <constraint firstItem="5Ru-yM-mc5" firstAttribute="top" secondItem="nD3-Be-Wro" secondAttribute="bottom" id="j7d-no-rHF"/>
+                            <constraint firstItem="nD3-Be-Wro" firstAttribute="top" secondItem="yEH-cY-anY" secondAttribute="top" id="kmp-mK-KVh"/>
+                            <constraint firstAttribute="trailing" secondItem="5Ru-yM-mc5" secondAttribute="trailing" id="ojp-Yu-MAX"/>
+                            <constraint firstItem="nD3-Be-Wro" firstAttribute="leading" secondItem="5Ru-yM-mc5" secondAttribute="leading" id="t9I-3P-r0J"/>
+                            <constraint firstItem="5Ru-yM-mc5" firstAttribute="trailing" secondItem="nD3-Be-Wro" secondAttribute="trailing" id="yAl-m8-9OF"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="UIImagePickerController" image="avTabBarIcon_on" id="6ll-aQ-nGd"/>
+                    <connections>
+                        <outlet property="imageView" destination="5Ru-yM-mc5" id="ryv-am-fOz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xjC-99-B9U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="574" y="236"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="t9u-0f-3yh">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="Hjo-yk-ANI" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="cAR-fQ-LnL">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="gqw-lh-5eQ" kind="relationship" relationship="viewControllers" id="Z50-sK-KsL"/>
+                        <segue destination="Agm-GS-esn" kind="relationship" relationship="viewControllers" id="RKj-8K-tSV"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5lt-TL-gMZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="40" y="563"/>
+        </scene>
+        <!--Navigation Controller - AVFoundation-->
+        <scene sceneID="Hyo-kO-Lmq">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="Agm-GS-esn" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="AVFoundation" image="uiTabBarIcon_on" id="BPP-ne-xiZ"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zuW-LO-xH7">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="EX6-wO-xkB" kind="relationship" relationship="rootViewController" id="S1L-A4-due"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t0U-A4-mUB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="574" y="910"/>
+        </scene>
+        <!--Foundation View Controller - AVFoundation-->
+        <scene sceneID="q6z-KA-vjd">
+            <objects>
+                <viewController id="EX6-wO-xkB" customClass="AVFoundationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EAw-iP-IhZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Aa-Jo-dv2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lRC-Lj-IyL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t4n-2G-8RN">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="AVFoundation" id="eUh-Ao-Abx">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="camera" id="TCf-pT-aG7"/>
+                                    </navigationItem>
+                                </items>
+                                <connections>
+                                    <outlet property="delegate" destination="EX6-wO-xkB" id="Ce9-sk-fKY"/>
+                                </connections>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gzI-Mo-w5L">
+                                <rect key="frame" x="0.0" y="44" width="320" height="473"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.40290871262550354" green="0.76517754793167114" blue="0.43209630250930786" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="gzI-Mo-w5L" firstAttribute="top" secondItem="t4n-2G-8RN" secondAttribute="bottom" id="LGh-0E-CDI"/>
+                            <constraint firstItem="t4n-2G-8RN" firstAttribute="top" secondItem="lRC-Lj-IyL" secondAttribute="top" id="Ncg-Qu-TzV"/>
+                            <constraint firstItem="t4n-2G-8RN" firstAttribute="leading" secondItem="lRC-Lj-IyL" secondAttribute="leading" id="T2n-qR-iEU"/>
+                            <constraint firstItem="gzI-Mo-w5L" firstAttribute="leading" secondItem="t4n-2G-8RN" secondAttribute="leading" id="gnE-qk-dRx"/>
+                            <constraint firstItem="t4n-2G-8RN" firstAttribute="trailing" secondItem="gzI-Mo-w5L" secondAttribute="trailing" id="h11-gl-X0N"/>
+                            <constraint firstAttribute="trailing" secondItem="gzI-Mo-w5L" secondAttribute="trailing" id="lk1-5B-M6t"/>
+                            <constraint firstItem="6Aa-Jo-dv2" firstAttribute="top" secondItem="gzI-Mo-w5L" secondAttribute="bottom" constant="2" id="ugy-Xc-edu"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="AVFoundation" id="7Cs-xk-CIG">
+                        <barButtonItem key="rightBarButtonItem" title="Start" id="cVO-JR-a5O">
+                            <connections>
+                                <action selector="setupAVFoundation:" destination="EX6-wO-xkB" id="oZ3-yB-NuL"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="gzI-Mo-w5L" id="hXA-jQ-nvV"/>
+                        <segue destination="zOd-hD-pue" kind="push" identifier="AVCaptureViewSegue" id="Uej-kr-yaT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WhF-QS-kwb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1013" y="910"/>
+        </scene>
+        <!--Capture View Controller-->
+        <scene sceneID="SgF-sP-8a8">
+            <objects>
+                <viewController id="zOd-hD-pue" customClass="AVCaptureViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FLn-h7-VHA"/>
+                        <viewControllerLayoutGuide type="bottom" id="jkH-vZ-SSR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xV6-MJ-mQC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="goL-2s-rky">
+                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="D6T-uK-8iM">
+                            <connections>
+                                <action selector="takePicture:" destination="zOd-hD-pue" id="ATt-R8-jYc"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L5p-4w-T5z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1434" y="910"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="avTabBarIcon_on" width="30" height="30"/>
+        <image name="uiTabBarIcon_on" width="30" height="30"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
