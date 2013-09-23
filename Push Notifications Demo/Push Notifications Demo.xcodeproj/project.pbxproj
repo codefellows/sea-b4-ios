@@ -7,152 +7,161 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF0592D617F0CE33004BA337 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0592D517F0CE33004BA337 /* Foundation.framework */; };
-		EF0592D817F0CE33004BA337 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0592D717F0CE33004BA337 /* CoreGraphics.framework */; };
-		EF0592DA17F0CE33004BA337 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0592D917F0CE33004BA337 /* UIKit.framework */; };
-		EF0592E017F0CE33004BA337 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF0592DE17F0CE33004BA337 /* InfoPlist.strings */; };
-		EF0592E217F0CE33004BA337 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0592E117F0CE33004BA337 /* main.m */; };
-		EF0592E617F0CE33004BA337 /* PNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0592E517F0CE33004BA337 /* PNAppDelegate.m */; };
-		EF0592E917F0CE33004BA337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0592E717F0CE33004BA337 /* Main.storyboard */; };
-		EF0592EC17F0CE33004BA337 /* PNFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0592EB17F0CE33004BA337 /* PNFirstViewController.m */; };
-		EF0592EF17F0CE33004BA337 /* PNSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0592EE17F0CE33004BA337 /* PNSecondViewController.m */; };
-		EF0592F117F0CE33004BA337 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0592F017F0CE33004BA337 /* Images.xcassets */; };
-		EF0592F817F0CE33004BA337 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0592F717F0CE33004BA337 /* XCTest.framework */; };
-		EF0592F917F0CE33004BA337 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0592D517F0CE33004BA337 /* Foundation.framework */; };
-		EF0592FA17F0CE33004BA337 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0592D917F0CE33004BA337 /* UIKit.framework */; };
-		EF05930217F0CE33004BA337 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF05930017F0CE33004BA337 /* InfoPlist.strings */; };
-		EF05930417F0CE33004BA337 /* Push_Notifications_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF05930317F0CE33004BA337 /* Push_Notifications_DemoTests.m */; };
+		EF05931A17F0CF84004BA337 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF05931917F0CF84004BA337 /* Foundation.framework */; };
+		EF05931C17F0CF84004BA337 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF05931B17F0CF84004BA337 /* CoreGraphics.framework */; };
+		EF05931E17F0CF84004BA337 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF05931D17F0CF84004BA337 /* UIKit.framework */; };
+		EF05932017F0CF84004BA337 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF05931F17F0CF84004BA337 /* CoreData.framework */; };
+		EF05932617F0CF84004BA337 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF05932417F0CF84004BA337 /* InfoPlist.strings */; };
+		EF05932817F0CF84004BA337 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF05932717F0CF84004BA337 /* main.m */; };
+		EF05932C17F0CF84004BA337 /* PNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF05932B17F0CF84004BA337 /* PNAppDelegate.m */; };
+		EF05932F17F0CF84004BA337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF05932D17F0CF84004BA337 /* Main.storyboard */; };
+		EF05933217F0CF84004BA337 /* Push_Notifications_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF05933017F0CF84004BA337 /* Push_Notifications_Demo.xcdatamodeld */; };
+		EF05933517F0CF84004BA337 /* PNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF05933417F0CF84004BA337 /* PNMainViewController.m */; };
+		EF05933817F0CF84004BA337 /* PNFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF05933717F0CF84004BA337 /* PNFlipsideViewController.m */; };
+		EF05933A17F0CF84004BA337 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF05933917F0CF84004BA337 /* Images.xcassets */; };
+		EF05934117F0CF84004BA337 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF05934017F0CF84004BA337 /* XCTest.framework */; };
+		EF05934217F0CF84004BA337 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF05931917F0CF84004BA337 /* Foundation.framework */; };
+		EF05934317F0CF84004BA337 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF05931D17F0CF84004BA337 /* UIKit.framework */; };
+		EF05934417F0CF84004BA337 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF05931F17F0CF84004BA337 /* CoreData.framework */; };
+		EF05934C17F0CF84004BA337 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF05934A17F0CF84004BA337 /* InfoPlist.strings */; };
+		EF05934E17F0CF84004BA337 /* Push_Notifications_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF05934D17F0CF84004BA337 /* Push_Notifications_DemoTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EF0592FB17F0CE33004BA337 /* PBXContainerItemProxy */ = {
+		EF05934517F0CF84004BA337 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EF0592CA17F0CE33004BA337 /* Project object */;
+			containerPortal = EF05930E17F0CF84004BA337 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EF0592D117F0CE33004BA337;
+			remoteGlobalIDString = EF05931517F0CF84004BA337;
 			remoteInfo = "Push Notifications Demo";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EF0592D217F0CE33004BA337 /* Push Notifications Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Push Notifications Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF0592D517F0CE33004BA337 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		EF0592D717F0CE33004BA337 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EF0592D917F0CE33004BA337 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		EF0592DD17F0CE33004BA337 /* Push Notifications Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Push Notifications Demo-Info.plist"; sourceTree = "<group>"; };
-		EF0592DF17F0CE33004BA337 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EF0592E117F0CE33004BA337 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EF0592E317F0CE33004BA337 /* Push Notifications Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Push Notifications Demo-Prefix.pch"; sourceTree = "<group>"; };
-		EF0592E417F0CE33004BA337 /* PNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNAppDelegate.h; sourceTree = "<group>"; };
-		EF0592E517F0CE33004BA337 /* PNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNAppDelegate.m; sourceTree = "<group>"; };
-		EF0592E817F0CE33004BA337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EF0592EA17F0CE33004BA337 /* PNFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNFirstViewController.h; sourceTree = "<group>"; };
-		EF0592EB17F0CE33004BA337 /* PNFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNFirstViewController.m; sourceTree = "<group>"; };
-		EF0592ED17F0CE33004BA337 /* PNSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNSecondViewController.h; sourceTree = "<group>"; };
-		EF0592EE17F0CE33004BA337 /* PNSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNSecondViewController.m; sourceTree = "<group>"; };
-		EF0592F017F0CE33004BA337 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		EF0592F617F0CE33004BA337 /* Push Notifications DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Push Notifications DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF0592F717F0CE33004BA337 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EF0592FF17F0CE33004BA337 /* Push Notifications DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Push Notifications DemoTests-Info.plist"; sourceTree = "<group>"; };
-		EF05930117F0CE33004BA337 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EF05930317F0CE33004BA337 /* Push_Notifications_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Push_Notifications_DemoTests.m; sourceTree = "<group>"; };
+		EF05931617F0CF84004BA337 /* Push Notifications Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Push Notifications Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF05931917F0CF84004BA337 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF05931B17F0CF84004BA337 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF05931D17F0CF84004BA337 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF05931F17F0CF84004BA337 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EF05932317F0CF84004BA337 /* Push Notifications Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Push Notifications Demo-Info.plist"; sourceTree = "<group>"; };
+		EF05932517F0CF84004BA337 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF05932717F0CF84004BA337 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF05932917F0CF84004BA337 /* Push Notifications Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Push Notifications Demo-Prefix.pch"; sourceTree = "<group>"; };
+		EF05932A17F0CF84004BA337 /* PNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNAppDelegate.h; sourceTree = "<group>"; };
+		EF05932B17F0CF84004BA337 /* PNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNAppDelegate.m; sourceTree = "<group>"; };
+		EF05932E17F0CF84004BA337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF05933117F0CF84004BA337 /* Push_Notifications_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Push_Notifications_Demo.xcdatamodel; sourceTree = "<group>"; };
+		EF05933317F0CF84004BA337 /* PNMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNMainViewController.h; sourceTree = "<group>"; };
+		EF05933417F0CF84004BA337 /* PNMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNMainViewController.m; sourceTree = "<group>"; };
+		EF05933617F0CF84004BA337 /* PNFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNFlipsideViewController.h; sourceTree = "<group>"; };
+		EF05933717F0CF84004BA337 /* PNFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNFlipsideViewController.m; sourceTree = "<group>"; };
+		EF05933917F0CF84004BA337 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF05933F17F0CF84004BA337 /* Push Notifications DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Push Notifications DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF05934017F0CF84004BA337 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF05934917F0CF84004BA337 /* Push Notifications DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Push Notifications DemoTests-Info.plist"; sourceTree = "<group>"; };
+		EF05934B17F0CF84004BA337 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF05934D17F0CF84004BA337 /* Push_Notifications_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Push_Notifications_DemoTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EF0592CF17F0CE33004BA337 /* Frameworks */ = {
+		EF05931317F0CF84004BA337 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF0592D817F0CE33004BA337 /* CoreGraphics.framework in Frameworks */,
-				EF0592DA17F0CE33004BA337 /* UIKit.framework in Frameworks */,
-				EF0592D617F0CE33004BA337 /* Foundation.framework in Frameworks */,
+				EF05931C17F0CF84004BA337 /* CoreGraphics.framework in Frameworks */,
+				EF05932017F0CF84004BA337 /* CoreData.framework in Frameworks */,
+				EF05931E17F0CF84004BA337 /* UIKit.framework in Frameworks */,
+				EF05931A17F0CF84004BA337 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF0592F317F0CE33004BA337 /* Frameworks */ = {
+		EF05933C17F0CF84004BA337 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF0592F817F0CE33004BA337 /* XCTest.framework in Frameworks */,
-				EF0592FA17F0CE33004BA337 /* UIKit.framework in Frameworks */,
-				EF0592F917F0CE33004BA337 /* Foundation.framework in Frameworks */,
+				EF05934117F0CF84004BA337 /* XCTest.framework in Frameworks */,
+				EF05934417F0CF84004BA337 /* CoreData.framework in Frameworks */,
+				EF05934317F0CF84004BA337 /* UIKit.framework in Frameworks */,
+				EF05934217F0CF84004BA337 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EF0592C917F0CE33004BA337 = {
+		EF05930D17F0CF84004BA337 = {
 			isa = PBXGroup;
 			children = (
-				EF0592DB17F0CE33004BA337 /* Push Notifications Demo */,
-				EF0592FD17F0CE33004BA337 /* Push Notifications DemoTests */,
-				EF0592D417F0CE33004BA337 /* Frameworks */,
-				EF0592D317F0CE33004BA337 /* Products */,
+				EF05932117F0CF84004BA337 /* Push Notifications Demo */,
+				EF05934717F0CF84004BA337 /* Push Notifications DemoTests */,
+				EF05931817F0CF84004BA337 /* Frameworks */,
+				EF05931717F0CF84004BA337 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EF0592D317F0CE33004BA337 /* Products */ = {
+		EF05931717F0CF84004BA337 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF0592D217F0CE33004BA337 /* Push Notifications Demo.app */,
-				EF0592F617F0CE33004BA337 /* Push Notifications DemoTests.xctest */,
+				EF05931617F0CF84004BA337 /* Push Notifications Demo.app */,
+				EF05933F17F0CF84004BA337 /* Push Notifications DemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EF0592D417F0CE33004BA337 /* Frameworks */ = {
+		EF05931817F0CF84004BA337 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EF0592D517F0CE33004BA337 /* Foundation.framework */,
-				EF0592D717F0CE33004BA337 /* CoreGraphics.framework */,
-				EF0592D917F0CE33004BA337 /* UIKit.framework */,
-				EF0592F717F0CE33004BA337 /* XCTest.framework */,
+				EF05931917F0CF84004BA337 /* Foundation.framework */,
+				EF05931B17F0CF84004BA337 /* CoreGraphics.framework */,
+				EF05931D17F0CF84004BA337 /* UIKit.framework */,
+				EF05931F17F0CF84004BA337 /* CoreData.framework */,
+				EF05934017F0CF84004BA337 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EF0592DB17F0CE33004BA337 /* Push Notifications Demo */ = {
+		EF05932117F0CF84004BA337 /* Push Notifications Demo */ = {
 			isa = PBXGroup;
 			children = (
-				EF0592E417F0CE33004BA337 /* PNAppDelegate.h */,
-				EF0592E517F0CE33004BA337 /* PNAppDelegate.m */,
-				EF0592E717F0CE33004BA337 /* Main.storyboard */,
-				EF0592EA17F0CE33004BA337 /* PNFirstViewController.h */,
-				EF0592EB17F0CE33004BA337 /* PNFirstViewController.m */,
-				EF0592ED17F0CE33004BA337 /* PNSecondViewController.h */,
-				EF0592EE17F0CE33004BA337 /* PNSecondViewController.m */,
-				EF0592F017F0CE33004BA337 /* Images.xcassets */,
-				EF0592DC17F0CE33004BA337 /* Supporting Files */,
+				EF05932A17F0CF84004BA337 /* PNAppDelegate.h */,
+				EF05932B17F0CF84004BA337 /* PNAppDelegate.m */,
+				EF05932D17F0CF84004BA337 /* Main.storyboard */,
+				EF05933317F0CF84004BA337 /* PNMainViewController.h */,
+				EF05933417F0CF84004BA337 /* PNMainViewController.m */,
+				EF05933617F0CF84004BA337 /* PNFlipsideViewController.h */,
+				EF05933717F0CF84004BA337 /* PNFlipsideViewController.m */,
+				EF05933917F0CF84004BA337 /* Images.xcassets */,
+				EF05933017F0CF84004BA337 /* Push_Notifications_Demo.xcdatamodeld */,
+				EF05932217F0CF84004BA337 /* Supporting Files */,
 			);
 			path = "Push Notifications Demo";
 			sourceTree = "<group>";
 		};
-		EF0592DC17F0CE33004BA337 /* Supporting Files */ = {
+		EF05932217F0CF84004BA337 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EF0592DD17F0CE33004BA337 /* Push Notifications Demo-Info.plist */,
-				EF0592DE17F0CE33004BA337 /* InfoPlist.strings */,
-				EF0592E117F0CE33004BA337 /* main.m */,
-				EF0592E317F0CE33004BA337 /* Push Notifications Demo-Prefix.pch */,
+				EF05932317F0CF84004BA337 /* Push Notifications Demo-Info.plist */,
+				EF05932417F0CF84004BA337 /* InfoPlist.strings */,
+				EF05932717F0CF84004BA337 /* main.m */,
+				EF05932917F0CF84004BA337 /* Push Notifications Demo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EF0592FD17F0CE33004BA337 /* Push Notifications DemoTests */ = {
+		EF05934717F0CF84004BA337 /* Push Notifications DemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				EF05930317F0CE33004BA337 /* Push_Notifications_DemoTests.m */,
-				EF0592FE17F0CE33004BA337 /* Supporting Files */,
+				EF05934D17F0CF84004BA337 /* Push_Notifications_DemoTests.m */,
+				EF05934817F0CF84004BA337 /* Supporting Files */,
 			);
 			path = "Push Notifications DemoTests";
 			sourceTree = "<group>";
 		};
-		EF0592FE17F0CE33004BA337 /* Supporting Files */ = {
+		EF05934817F0CF84004BA337 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EF0592FF17F0CE33004BA337 /* Push Notifications DemoTests-Info.plist */,
-				EF05930017F0CE33004BA337 /* InfoPlist.strings */,
+				EF05934917F0CF84004BA337 /* Push Notifications DemoTests-Info.plist */,
+				EF05934A17F0CF84004BA337 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,13 +169,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF0592D117F0CE33004BA337 /* Push Notifications Demo */ = {
+		EF05931517F0CF84004BA337 /* Push Notifications Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF05930717F0CE33004BA337 /* Build configuration list for PBXNativeTarget "Push Notifications Demo" */;
+			buildConfigurationList = EF05935117F0CF84004BA337 /* Build configuration list for PBXNativeTarget "Push Notifications Demo" */;
 			buildPhases = (
-				EF0592CE17F0CE33004BA337 /* Sources */,
-				EF0592CF17F0CE33004BA337 /* Frameworks */,
-				EF0592D017F0CE33004BA337 /* Resources */,
+				EF05931217F0CF84004BA337 /* Sources */,
+				EF05931317F0CF84004BA337 /* Frameworks */,
+				EF05931417F0CF84004BA337 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -174,43 +183,43 @@
 			);
 			name = "Push Notifications Demo";
 			productName = "Push Notifications Demo";
-			productReference = EF0592D217F0CE33004BA337 /* Push Notifications Demo.app */;
+			productReference = EF05931617F0CF84004BA337 /* Push Notifications Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EF0592F517F0CE33004BA337 /* Push Notifications DemoTests */ = {
+		EF05933E17F0CF84004BA337 /* Push Notifications DemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF05930A17F0CE33004BA337 /* Build configuration list for PBXNativeTarget "Push Notifications DemoTests" */;
+			buildConfigurationList = EF05935417F0CF84004BA337 /* Build configuration list for PBXNativeTarget "Push Notifications DemoTests" */;
 			buildPhases = (
-				EF0592F217F0CE33004BA337 /* Sources */,
-				EF0592F317F0CE33004BA337 /* Frameworks */,
-				EF0592F417F0CE33004BA337 /* Resources */,
+				EF05933B17F0CF84004BA337 /* Sources */,
+				EF05933C17F0CF84004BA337 /* Frameworks */,
+				EF05933D17F0CF84004BA337 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EF0592FC17F0CE33004BA337 /* PBXTargetDependency */,
+				EF05934617F0CF84004BA337 /* PBXTargetDependency */,
 			);
 			name = "Push Notifications DemoTests";
 			productName = "Push Notifications DemoTests";
-			productReference = EF0592F617F0CE33004BA337 /* Push Notifications DemoTests.xctest */;
+			productReference = EF05933F17F0CF84004BA337 /* Push Notifications DemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EF0592CA17F0CE33004BA337 /* Project object */ = {
+		EF05930E17F0CF84004BA337 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = PN;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Code Fellows";
 				TargetAttributes = {
-					EF0592F517F0CE33004BA337 = {
-						TestTargetID = EF0592D117F0CE33004BA337;
+					EF05933E17F0CF84004BA337 = {
+						TestTargetID = EF05931517F0CF84004BA337;
 					};
 				};
 			};
-			buildConfigurationList = EF0592CD17F0CE33004BA337 /* Build configuration list for PBXProject "Push Notifications Demo" */;
+			buildConfigurationList = EF05931117F0CF84004BA337 /* Build configuration list for PBXProject "Push Notifications Demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,89 +227,90 @@
 				en,
 				Base,
 			);
-			mainGroup = EF0592C917F0CE33004BA337;
-			productRefGroup = EF0592D317F0CE33004BA337 /* Products */;
+			mainGroup = EF05930D17F0CF84004BA337;
+			productRefGroup = EF05931717F0CF84004BA337 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF0592D117F0CE33004BA337 /* Push Notifications Demo */,
-				EF0592F517F0CE33004BA337 /* Push Notifications DemoTests */,
+				EF05931517F0CF84004BA337 /* Push Notifications Demo */,
+				EF05933E17F0CF84004BA337 /* Push Notifications DemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EF0592D017F0CE33004BA337 /* Resources */ = {
+		EF05931417F0CF84004BA337 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF0592F117F0CE33004BA337 /* Images.xcassets in Resources */,
-				EF0592E017F0CE33004BA337 /* InfoPlist.strings in Resources */,
-				EF0592E917F0CE33004BA337 /* Main.storyboard in Resources */,
+				EF05933A17F0CF84004BA337 /* Images.xcassets in Resources */,
+				EF05932617F0CF84004BA337 /* InfoPlist.strings in Resources */,
+				EF05932F17F0CF84004BA337 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF0592F417F0CE33004BA337 /* Resources */ = {
+		EF05933D17F0CF84004BA337 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF05930217F0CE33004BA337 /* InfoPlist.strings in Resources */,
+				EF05934C17F0CF84004BA337 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EF0592CE17F0CE33004BA337 /* Sources */ = {
+		EF05931217F0CF84004BA337 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF0592EF17F0CE33004BA337 /* PNSecondViewController.m in Sources */,
-				EF0592E617F0CE33004BA337 /* PNAppDelegate.m in Sources */,
-				EF0592E217F0CE33004BA337 /* main.m in Sources */,
-				EF0592EC17F0CE33004BA337 /* PNFirstViewController.m in Sources */,
+				EF05933217F0CF84004BA337 /* Push_Notifications_Demo.xcdatamodeld in Sources */,
+				EF05932C17F0CF84004BA337 /* PNAppDelegate.m in Sources */,
+				EF05933817F0CF84004BA337 /* PNFlipsideViewController.m in Sources */,
+				EF05932817F0CF84004BA337 /* main.m in Sources */,
+				EF05933517F0CF84004BA337 /* PNMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF0592F217F0CE33004BA337 /* Sources */ = {
+		EF05933B17F0CF84004BA337 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF05930417F0CE33004BA337 /* Push_Notifications_DemoTests.m in Sources */,
+				EF05934E17F0CF84004BA337 /* Push_Notifications_DemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EF0592FC17F0CE33004BA337 /* PBXTargetDependency */ = {
+		EF05934617F0CF84004BA337 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EF0592D117F0CE33004BA337 /* Push Notifications Demo */;
-			targetProxy = EF0592FB17F0CE33004BA337 /* PBXContainerItemProxy */;
+			target = EF05931517F0CF84004BA337 /* Push Notifications Demo */;
+			targetProxy = EF05934517F0CF84004BA337 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EF0592DE17F0CE33004BA337 /* InfoPlist.strings */ = {
+		EF05932417F0CF84004BA337 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EF0592DF17F0CE33004BA337 /* en */,
+				EF05932517F0CF84004BA337 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		EF0592E717F0CE33004BA337 /* Main.storyboard */ = {
+		EF05932D17F0CF84004BA337 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EF0592E817F0CE33004BA337 /* Base */,
+				EF05932E17F0CF84004BA337 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EF05930017F0CE33004BA337 /* InfoPlist.strings */ = {
+		EF05934A17F0CF84004BA337 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EF05930117F0CE33004BA337 /* en */,
+				EF05934B17F0CF84004BA337 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -308,7 +318,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EF05930517F0CE33004BA337 /* Debug */ = {
+		EF05934F17F0CF84004BA337 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -347,7 +357,7 @@
 			};
 			name = Debug;
 		};
-		EF05930617F0CE33004BA337 /* Release */ = {
+		EF05935017F0CF84004BA337 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +390,7 @@
 			};
 			name = Release;
 		};
-		EF05930817F0CE33004BA337 /* Debug */ = {
+		EF05935217F0CF84004BA337 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -393,7 +403,7 @@
 			};
 			name = Debug;
 		};
-		EF05930917F0CE33004BA337 /* Release */ = {
+		EF05935317F0CF84004BA337 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -406,7 +416,7 @@
 			};
 			name = Release;
 		};
-		EF05930B17F0CE33004BA337 /* Debug */ = {
+		EF05935517F0CF84004BA337 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -429,7 +439,7 @@
 			};
 			name = Debug;
 		};
-		EF05930C17F0CE33004BA337 /* Release */ = {
+		EF05935617F0CF84004BA337 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -451,32 +461,45 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF0592CD17F0CE33004BA337 /* Build configuration list for PBXProject "Push Notifications Demo" */ = {
+		EF05931117F0CF84004BA337 /* Build configuration list for PBXProject "Push Notifications Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF05930517F0CE33004BA337 /* Debug */,
-				EF05930617F0CE33004BA337 /* Release */,
+				EF05934F17F0CF84004BA337 /* Debug */,
+				EF05935017F0CF84004BA337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF05930717F0CE33004BA337 /* Build configuration list for PBXNativeTarget "Push Notifications Demo" */ = {
+		EF05935117F0CF84004BA337 /* Build configuration list for PBXNativeTarget "Push Notifications Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF05930817F0CE33004BA337 /* Debug */,
-				EF05930917F0CE33004BA337 /* Release */,
+				EF05935217F0CF84004BA337 /* Debug */,
+				EF05935317F0CF84004BA337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		EF05930A17F0CE33004BA337 /* Build configuration list for PBXNativeTarget "Push Notifications DemoTests" */ = {
+		EF05935417F0CF84004BA337 /* Build configuration list for PBXNativeTarget "Push Notifications DemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF05930B17F0CE33004BA337 /* Debug */,
-				EF05930C17F0CE33004BA337 /* Release */,
+				EF05935517F0CF84004BA337 /* Debug */,
+				EF05935617F0CF84004BA337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF05933017F0CF84004BA337 /* Push_Notifications_Demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF05933117F0CF84004BA337 /* Push_Notifications_Demo.xcdatamodel */,
+			);
+			currentVersion = EF05933117F0CF84004BA337 /* Push_Notifications_Demo.xcdatamodel */;
+			path = Push_Notifications_Demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = EF0592CA17F0CE33004BA337 /* Project object */;
+	rootObject = EF05930E17F0CF84004BA337 /* Project object */;
 }

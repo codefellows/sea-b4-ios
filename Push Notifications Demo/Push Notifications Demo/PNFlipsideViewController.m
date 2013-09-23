@@ -1,18 +1,23 @@
 //
-//  PNSecondViewController.m
+//  PNFlipsideViewController.m
 //  Push Notifications Demo
 //
 //  Created by John Clem on 9/23/13.
 //  Copyright (c) 2013 Code Fellows. All rights reserved.
 //
 
-#import "PNSecondViewController.h"
+#import "PNFlipsideViewController.h"
 
-@interface PNSecondViewController ()
+@interface PNFlipsideViewController ()
 
 @end
 
-@implementation PNSecondViewController
+@implementation PNFlipsideViewController
+
+- (void)awakeFromNib
+{
+    [super awakeFromNib];
+}
 
 - (void)viewDidLoad
 {
@@ -24,6 +29,13 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Actions
+
+- (IBAction)done:(id)sender
+{
+    [self.delegate flipsideViewControllerDidFinish:self];
 }
 
 @end
