@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="Xcode"> 
+
+   <!-- start at Langford -->
+   <wpt lat="45.670" lon="-111.051">
+      <name>Bozeman drive</name>
+	</wpt>
+   <wpt lat="45.670" lon="-111.050"></wpt>
+   <wpt lat="45.670" lon="-111.049"></wpt>
+   <wpt lat="45.670" lon="-111.048"></wpt>
+   
+   <!-- turn on 8th Ave -->
+   <wpt lat="45.671" lon="-111.048"></wpt>
+   <wpt lat="45.672" lon="-111.048"></wpt>
+   <wpt lat="45.673" lon="-111.048"></wpt>
+   <wpt lat="45.674" lon="-111.048"></wpt>
+   <wpt lat="45.675" lon="-111.048"></wpt>
+   <wpt lat="45.676" lon="-111.048"></wpt>
+   <wpt lat="45.677" lon="-111.048"></wpt>
+   <wpt lat="45.678" lon="-111.048"></wpt>
+   <wpt lat="45.679" lon="-111.048"></wpt>
+   <wpt lat="45.6794" lon="-111.048"></wpt>
+   <wpt lat="45.6794" lon="-111.048"></wpt>
+   
+   <!-- turn on Main St -->
+   <wpt lat="45.6794" lon="-111.047"></wpt>
+   <wpt lat="45.6794" lon="-111.046"></wpt>
+   <wpt lat="45.6794" lon="-111.045"></wpt>
+   <wpt lat="45.6794" lon="-111.044"></wpt>
+   <wpt lat="45.6794" lon="-111.043"></wpt>
+   <wpt lat="45.6794" lon="-111.042"></wpt>
+   <wpt lat="45.6794" lon="-111.041"></wpt>
+   <wpt lat="45.6794" lon="-111.040"></wpt>
+   <wpt lat="45.6794" lon="-111.039"></wpt>
+   
+   <!-- passing Willson Ave -->
+   <wpt lat="45.6794" lon="-111.039"></wpt>
+   <wpt lat="45.6794" lon="-111.038"></wpt>
+   <wpt lat="45.6794" lon="-111.037"></wpt>
+   <wpt lat="45.6794" lon="-111.036"></wpt>
+   <wpt lat="45.6794" lon="-111.035"></wpt>
+   <wpt lat="45.6794" lon="-111.034"></wpt>
+   <wpt lat="45.6794" lon="-111.033"></wpt>
+   <wpt lat="45.6794" lon="-111.032"></wpt>
+   <wpt lat="45.6794" lon="-111.031"></wpt>
+   <wpt lat="45.6794" lon="-111.030"></wpt>
+   <wpt lat="45.6794" lon="-111.029"></wpt>
+   <wpt lat="45.6794" lon="-111.028"></wpt>
+   
+   <!-- Arrive at Ale Works -->
+   <wpt lat="45.6798" lon="-111.028"></wpt>
+   <wpt lat="45.6798" lon="-111.028"></wpt>
+   <wpt lat="45.6798" lon="-111.028"></wpt>
+   <wpt lat="45.6798" lon="-111.028"></wpt>
+   <wpt lat="45.6798" lon="-111.028"></wpt>
+   <wpt lat="45.6798" lon="-111.028"></wpt>
+
+    
+</gpx>
