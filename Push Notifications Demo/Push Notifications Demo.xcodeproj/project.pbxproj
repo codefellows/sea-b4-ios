@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		494DD287379C475BAB7984BE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDFC765BF35470992100741 /* libPods.a */; };
 		EF05931A17F0CF84004BA337 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF05931917F0CF84004BA337 /* Foundation.framework */; };
 		EF05931C17F0CF84004BA337 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF05931B17F0CF84004BA337 /* CoreGraphics.framework */; };
 		EF05931E17F0CF84004BA337 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF05931D17F0CF84004BA337 /* UIKit.framework */; };
@@ -17,7 +18,6 @@
 		EF05932F17F0CF84004BA337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF05932D17F0CF84004BA337 /* Main.storyboard */; };
 		EF05933217F0CF84004BA337 /* Push_Notifications_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF05933017F0CF84004BA337 /* Push_Notifications_Demo.xcdatamodeld */; };
 		EF05933517F0CF84004BA337 /* PNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF05933417F0CF84004BA337 /* PNMainViewController.m */; };
-		EF05933817F0CF84004BA337 /* PNFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF05933717F0CF84004BA337 /* PNFlipsideViewController.m */; };
 		EF05933A17F0CF84004BA337 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF05933917F0CF84004BA337 /* Images.xcassets */; };
 		EF05934117F0CF84004BA337 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF05934017F0CF84004BA337 /* XCTest.framework */; };
 		EF05934217F0CF84004BA337 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF05931917F0CF84004BA337 /* Foundation.framework */; };
@@ -25,6 +25,8 @@
 		EF05934417F0CF84004BA337 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF05931F17F0CF84004BA337 /* CoreData.framework */; };
 		EF05934C17F0CF84004BA337 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF05934A17F0CF84004BA337 /* InfoPlist.strings */; };
 		EF05934E17F0CF84004BA337 /* Push_Notifications_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF05934D17F0CF84004BA337 /* Push_Notifications_DemoTests.m */; };
+		EF05935917F0D356004BA337 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = EF05935817F0D356004BA337 /* Message.m */; };
+		EFB652D217F0E330004C12A2 /* PNMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB652D117F0E330004C12A2 /* PNMessageCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		851F8653E90041959661C39C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		DEDFC765BF35470992100741 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF05931617F0CF84004BA337 /* Push Notifications Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Push Notifications Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF05931917F0CF84004BA337 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EF05931B17F0CF84004BA337 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,14 +57,17 @@
 		EF05933117F0CF84004BA337 /* Push_Notifications_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Push_Notifications_Demo.xcdatamodel; sourceTree = "<group>"; };
 		EF05933317F0CF84004BA337 /* PNMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNMainViewController.h; sourceTree = "<group>"; };
 		EF05933417F0CF84004BA337 /* PNMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNMainViewController.m; sourceTree = "<group>"; };
-		EF05933617F0CF84004BA337 /* PNFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNFlipsideViewController.h; sourceTree = "<group>"; };
-		EF05933717F0CF84004BA337 /* PNFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNFlipsideViewController.m; sourceTree = "<group>"; };
 		EF05933917F0CF84004BA337 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EF05933F17F0CF84004BA337 /* Push Notifications DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Push Notifications DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF05934017F0CF84004BA337 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EF05934917F0CF84004BA337 /* Push Notifications DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Push Notifications DemoTests-Info.plist"; sourceTree = "<group>"; };
 		EF05934B17F0CF84004BA337 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF05934D17F0CF84004BA337 /* Push_Notifications_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Push_Notifications_DemoTests.m; sourceTree = "<group>"; };
+		EF05935717F0D356004BA337 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		EF05935817F0D356004BA337 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		EF05935A17F0DB79004BA337 /* Push Notifications Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Push Notifications Demo.entitlements"; sourceTree = "<group>"; };
+		EFB652D017F0E330004C12A2 /* PNMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNMessageCell.h; sourceTree = "<group>"; };
+		EFB652D117F0E330004C12A2 /* PNMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNMessageCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +79,7 @@
 				EF05932017F0CF84004BA337 /* CoreData.framework in Frameworks */,
 				EF05931E17F0CF84004BA337 /* UIKit.framework in Frameworks */,
 				EF05931A17F0CF84004BA337 /* Foundation.framework in Frameworks */,
+				494DD287379C475BAB7984BE /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +104,7 @@
 				EF05934717F0CF84004BA337 /* Push Notifications DemoTests */,
 				EF05931817F0CF84004BA337 /* Frameworks */,
 				EF05931717F0CF84004BA337 /* Products */,
+				851F8653E90041959661C39C /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +125,7 @@
 				EF05931D17F0CF84004BA337 /* UIKit.framework */,
 				EF05931F17F0CF84004BA337 /* CoreData.framework */,
 				EF05934017F0CF84004BA337 /* XCTest.framework */,
+				DEDFC765BF35470992100741 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -123,16 +133,19 @@
 		EF05932117F0CF84004BA337 /* Push Notifications Demo */ = {
 			isa = PBXGroup;
 			children = (
+				EF05935A17F0DB79004BA337 /* Push Notifications Demo.entitlements */,
 				EF05932A17F0CF84004BA337 /* PNAppDelegate.h */,
 				EF05932B17F0CF84004BA337 /* PNAppDelegate.m */,
 				EF05932D17F0CF84004BA337 /* Main.storyboard */,
 				EF05933317F0CF84004BA337 /* PNMainViewController.h */,
 				EF05933417F0CF84004BA337 /* PNMainViewController.m */,
-				EF05933617F0CF84004BA337 /* PNFlipsideViewController.h */,
-				EF05933717F0CF84004BA337 /* PNFlipsideViewController.m */,
 				EF05933917F0CF84004BA337 /* Images.xcassets */,
 				EF05933017F0CF84004BA337 /* Push_Notifications_Demo.xcdatamodeld */,
+				EF05935717F0D356004BA337 /* Message.h */,
+				EF05935817F0D356004BA337 /* Message.m */,
 				EF05932217F0CF84004BA337 /* Supporting Files */,
+				EFB652D017F0E330004C12A2 /* PNMessageCell.h */,
+				EFB652D117F0E330004C12A2 /* PNMessageCell.m */,
 			);
 			path = "Push Notifications Demo";
 			sourceTree = "<group>";
@@ -173,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF05935117F0CF84004BA337 /* Build configuration list for PBXNativeTarget "Push Notifications Demo" */;
 			buildPhases = (
+				046398ED22764956892457B8 /* Check Pods Manifest.lock */,
 				EF05931217F0CF84004BA337 /* Sources */,
 				EF05931317F0CF84004BA337 /* Frameworks */,
 				EF05931417F0CF84004BA337 /* Resources */,
+				086104B2237440978171D54B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +229,17 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Code Fellows";
 				TargetAttributes = {
+					EF05931517F0CF84004BA337 = {
+						DevelopmentTeam = TX54R8GYX2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
 					EF05933E17F0CF84004BA337 = {
 						TestTargetID = EF05931517F0CF84004BA337;
 					};
@@ -259,14 +285,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		046398ED22764956892457B8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		086104B2237440978171D54B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF05931217F0CF84004BA337 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EF05933217F0CF84004BA337 /* Push_Notifications_Demo.xcdatamodeld in Sources */,
+				EFB652D217F0E330004C12A2 /* PNMessageCell.m in Sources */,
 				EF05932C17F0CF84004BA337 /* PNAppDelegate.m in Sources */,
-				EF05933817F0CF84004BA337 /* PNFlipsideViewController.m in Sources */,
+				EF05935917F0D356004BA337 /* Message.m in Sources */,
 				EF05932817F0CF84004BA337 /* main.m in Sources */,
 				EF05933517F0CF84004BA337 /* PNMainViewController.m in Sources */,
 			);
@@ -392,26 +452,34 @@
 		};
 		EF05935217F0CF84004BA337 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 851F8653E90041959661C39C /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Push Notifications Demo/Push Notifications Demo-Prefix.pch";
 				INFOPLIST_FILE = "Push Notifications Demo/Push Notifications Demo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		EF05935317F0CF84004BA337 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 851F8653E90041959661C39C /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Push Notifications Demo/Push Notifications Demo-Prefix.pch";
 				INFOPLIST_FILE = "Push Notifications Demo/Push Notifications Demo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -477,6 +545,7 @@
 				EF05935317F0CF84004BA337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF05935417F0CF84004BA337 /* Build configuration list for PBXNativeTarget "Push Notifications DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +554,7 @@
 				EF05935617F0CF84004BA337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

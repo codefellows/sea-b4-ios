@@ -7,8 +7,8 @@
 //
 
 #import "PNAppDelegate.h"
-
 #import "PNMainViewController.h"
+#import <Orbiter/Orbiter.h>
 
 @implementation PNAppDelegate
 
@@ -21,9 +21,37 @@
     // Override point for customization after application launch.
     PNMainViewController *controller = (PNMainViewController *)self.window.rootViewController;
     controller.managedObjectContext = self.managedObjectContext;
+    
+    // Register for push notifications
+    [application registerForRemoteNotificationTypes:UIRemoteNotificationTypeAlert];
+    
     return YES;
 }
-							
+
+- (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error
+{
+    NSLog(@"Failed To Register For Remote Notifications: %@", error);
+}
+
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
+{
+    NSLog(@"Did Register");
+    
+    NSURL *serverURL = [NSURL URLWithString:@"http://cfpush.herokuapp.com/push_notification/"];
+    Orbiter *orbiter = [[Orbiter alloc] initWithBaseURL:serverURL credential:nil];
+    [orbiter registerDeviceToken:deviceToken withAlias:nil success:^(id responseObject) {
+        NSLog(@"Registration Success: %@", responseObject);
+    } failure:^(NSError *error) {
+        NSLog(@"Registration Error: %@", error);
+    }];
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+{
+    PNMainViewController *controller = (PNMainViewController *)self.window.rootViewController;
+    [controller handleNotificationWithUserInfo:userInfo];
+}
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -6,12 +6,12 @@
 //  Copyright (c) 2013 Code Fellows. All rights reserved.
 //
 
-#import "PNFlipsideViewController.h"
-
 #import <CoreData/CoreData.h>
 
-@interface PNMainViewController : UIViewController <PNFlipsideViewControllerDelegate>
+@interface PNMainViewController : UITableViewController
 
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+
+- (void)handleNotificationWithUserInfo:(NSDictionary *)info;
 
 @end

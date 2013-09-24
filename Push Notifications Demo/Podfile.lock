@@ -1,0 +1,14 @@
+PODS:
+  - AFNetworking (0.10.1)
+  - Orbiter (0.0.3):
+    - AFNetworking (>= 0.9)
+
+DEPENDENCIES:
+  - AFNetworking (~> 0.9)
+  - Orbiter (~> 0.0.3)
+
+SPEC CHECKSUMS:
+  AFNetworking: df1042246c17373b96f12f04bf5c6e1c25992cd4
+  Orbiter: 236905182d8b9f935c19b6ed190e50bebc4b1331
+
+COCOAPODS: 0.24.0
