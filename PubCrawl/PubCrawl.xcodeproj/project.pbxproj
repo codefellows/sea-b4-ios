@@ -494,6 +494,7 @@
 				C3AF1A0917F0A8D800BC5F65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3AF1A0A17F0A8D800BC5F65 /* Build configuration list for PBXNativeTarget "PubCrawlTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +503,7 @@
 				C3AF1A0C17F0A8D800BC5F65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
