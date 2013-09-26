@@ -21,10 +21,10 @@
 		C3FAA21117F49DC900C4AAF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3FAA1F317F49DC900C4AAF7 /* UIKit.framework */; };
 		C3FAA21917F49DC900C4AAF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3FAA21717F49DC900C4AAF7 /* InfoPlist.strings */; };
 		C3FAA21B17F49DC900C4AAF7 /* bluetooth_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FAA21A17F49DC900C4AAF7 /* bluetooth_demoTests.m */; };
-		C3FAA22517F49DE200C4AAF7 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3FAA22417F49DE200C4AAF7 /* GameKit.framework */; };
 		C3FAA22817F49EFA00C4AAF7 /* UIColor+RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FAA22717F49EFA00C4AAF7 /* UIColor+RandomColor.m */; };
 		C3FAA22B17F49FA200C4AAF7 /* BTBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FAA22A17F49FA200C4AAF7 /* BTBubbleView.m */; };
 		C3FAA22E17F4A49D00C4AAF7 /* BTBluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FAA22D17F4A49D00C4AAF7 /* BTBluetoothManager.m */; };
+		C3FAA23017F4AEDD00C4AAF7 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3FAA22F17F4AEDD00C4AAF7 /* MultipeerConnectivity.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +64,7 @@
 		C3FAA22A17F49FA200C4AAF7 /* BTBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBubbleView.m; sourceTree = "<group>"; };
 		C3FAA22C17F4A49D00C4AAF7 /* BTBluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBluetoothManager.h; sourceTree = "<group>"; };
 		C3FAA22D17F4A49D00C4AAF7 /* BTBluetoothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBluetoothManager.m; sourceTree = "<group>"; };
+		C3FAA22F17F4AEDD00C4AAF7 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3FAA22517F49DE200C4AAF7 /* GameKit.framework in Frameworks */,
+				C3FAA23017F4AEDD00C4AAF7 /* MultipeerConnectivity.framework in Frameworks */,
 				C3FAA1F217F49DC900C4AAF7 /* CoreGraphics.framework in Frameworks */,
 				C3FAA1F417F49DC900C4AAF7 /* UIKit.framework in Frameworks */,
 				C3FAA1F017F49DC900C4AAF7 /* Foundation.framework in Frameworks */,
@@ -113,6 +114,7 @@
 		C3FAA1EE17F49DC900C4AAF7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C3FAA22F17F4AEDD00C4AAF7 /* MultipeerConnectivity.framework */,
 				C3FAA22417F49DE200C4AAF7 /* GameKit.framework */,
 				C3FAA1EF17F49DC900C4AAF7 /* Foundation.framework */,
 				C3FAA1F117F49DC900C4AAF7 /* CoreGraphics.framework */,

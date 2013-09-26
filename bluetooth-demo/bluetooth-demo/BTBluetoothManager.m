@@ -23,16 +23,17 @@ static BTBluetoothManager *sharedInstance = nil;
 {
     self = [super init];
     if( self ) {
-        session = [[GKSession alloc] initWithSessionID:@"codefellowsbluetoothdemoid"
-                                           displayName:[[UIDevice currentDevice] name]
-                                           sessionMode:GKSessionModePeer];
-        session.delegate = self;
-        _peerName = nil;
+        MCPeerID *myId = [[MCPeerID alloc] initWithDisplayName:[[UIDevice currentDevice] name]];
+        nearbyBrowser = [[MCNearbyServiceBrowser alloc] initWithPeer:myId serviceType:@"cfbluetoothdemo"];
+        nearbyBrowser.delegate = self;
+        [nearbyBrowser startBrowsingForPeers];
 
-        connectionPicker = [GKPeerPickerController new];
-        connectionPicker.delegate = self;
-        connectionPicker.connectionTypesMask = GKPeerPickerConnectionTypeNearby;
-        [connectionPicker show];
+        nearbyAdvertiser = [[MCNearbyServiceAdvertiser alloc] initWithPeer:myId discoveryInfo:nil serviceType:@"cfbluetoothdemo"];
+        nearbyAdvertiser.delegate = self;
+        [nearbyAdvertiser startAdvertisingPeer];
+
+        session = [[MCSession alloc] initWithPeer:myId];
+        session.delegate = self;
     }
     return self;
 }
@@ -47,14 +48,53 @@ static BTBluetoothManager *sharedInstance = nil;
 -(void) sendDictionaryToPeers:(NSDictionary*)dict
 {
     NSData *encodedData = [NSKeyedArchiver archivedDataWithRootObject:dict];
-    [session sendDataToAllPeers:encodedData withDataMode:GKSendDataUnreliable error:nil];
+    [session sendData:encodedData toPeers:session.connectedPeers withMode:MCSessionSendDataUnreliable error:nil];
 }
 
 
--(void) receiveData:(NSData*)data
-           fromPeer:(NSString*)peer
-          inSession:(GKSession*)theSession
-            context:(void*)context
+#pragma mark - Nearby browser delegate
+
+-(void) browser:(MCNearbyServiceBrowser *)browser foundPeer:(MCPeerID *)peerID withDiscoveryInfo:(NSDictionary *)info
+{
+    [browser invitePeer:peerID toSession:session withContext:nil timeout:0];
+}
+
+-(void) browser:(MCNearbyServiceBrowser *)browser lostPeer:(MCPeerID *)peerID
+{
+}
+
+
+#pragma mark - Nearby advertiser delegate
+
+-(void) advertiser:(MCNearbyServiceAdvertiser *)advertiser didReceiveInvitationFromPeer:(MCPeerID *)peerID withContext:(NSData *)context invitationHandler:(void (^)(BOOL, MCSession *))invitationHandler
+{
+    invitationHandler( YES, session );
+}
+
+
+#pragma mark - Session delegate
+
+-(void) session:(MCSession*)theSession
+           peer:(MCPeerID *)peerID
+ didChangeState:(MCSessionState)state
+{
+    if( state == MCSessionStateConnected )
+    {
+        NSDictionary *handshake = [NSDictionary dictionaryWithObjectsAndKeys:
+                                   @(BluetoothCommandHandshake), @"command",
+                                   [[UIDevice currentDevice] name], @"peerName",
+                                   nil];
+        [self sendDictionaryToPeers:handshake];
+    }
+    else if( state == MCSessionStateNotConnected )
+    {
+    }
+}
+
+
+- (void)session:(MCSession *)session
+ didReceiveData:(NSData *)data
+       fromPeer:(MCPeerID *)peerID
 {
     NSDictionary *dict = [NSKeyedUnarchiver unarchiveObjectWithData:data];
 
@@ -89,12 +129,14 @@ static BTBluetoothManager *sharedInstance = nil;
                                              nil];
                 [self sendDictionaryToPeers:negotiation];
 
-                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Set Player Index"
-                                                                message:[NSString stringWithFormat:@"Other timestamp won, setting my index to %i", _playerIndex]
-                                                               delegate:nil
-                                                      cancelButtonTitle:@"OK"
-                                                      otherButtonTitles:nil];
-                [alert show];
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Set Player Index"
+                                                                    message:[NSString stringWithFormat:@"Other timestamp won, setting my index to %i", _playerIndex]
+                                                                   delegate:nil
+                                                          cancelButtonTitle:@"OK"
+                                                          otherButtonTitles:nil];
+                    [alert show];
+                });
             }
             break;
         }
@@ -103,63 +145,20 @@ static BTBluetoothManager *sharedInstance = nil;
             NSInteger otherPlayer = [[dict objectForKey:@"playerIndex"] intValue];
             _playerIndex = 1 - otherPlayer;
 
-            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Set Player Index"
-                                                            message:[NSString stringWithFormat:@"Peer confirmed my timestamp won, setting my index to %i", _playerIndex]
-                                                           delegate:nil
-                                                  cancelButtonTitle:@"OK"
-                                                  otherButtonTitles:nil];
-            [alert show];
+            dispatch_async(dispatch_get_main_queue(), ^{
+                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Set Player Index"
+                                                                message:[NSString stringWithFormat:@"Peer confirmed my timestamp won, setting my index to %i", _playerIndex]
+                                                               delegate:nil
+                                                      cancelButtonTitle:@"OK"
+                                                      otherButtonTitles:nil];
+                [alert show];
+            });
 
             break;
         }
     }
 
     [[NSNotificationCenter defaultCenter] postNotificationName:@"bluetoothDataReceived" object:dict];
-}
-
-
-#pragma  mark - Peer picker delegate
-
--(GKSession*) peerPickerController:(GKPeerPickerController*)picker
-          sessionForConnectionType:(GKPeerPickerConnectionType)type
-{
-    return session;
-}
-
-
--(void) peerPickerController:(GKPeerPickerController*)picker
-              didConnectPeer:(NSString*)newPeer
-                   toSession:(GKSession*)session
-{
-    [picker dismiss];
-}
-
-
--(void) peerPickerControllerDidCancel:(GKPeerPickerController*)picker
-{
-}
-
-
-#pragma mark - Session delegate
-
--(void) session:(GKSession*)theSession
-           peer:(NSString*)thePeer
- didChangeState:(GKPeerConnectionState)state
-{
-    if( state == GKPeerStateConnected )
-    {
-        peerId = thePeer;
-        [session setDataReceiveHandler:self withContext:nil];
-
-        NSDictionary *handshake = [NSDictionary dictionaryWithObjectsAndKeys:
-                                   @(BluetoothCommandHandshake), @"command",
-                                   [[UIDevice currentDevice] name], @"peerName",
-                                   nil];
-        [self sendDictionaryToPeers:handshake];
-    }
-    else if( state == GKPeerStateDisconnected )
-    {
-    }
 }
 
 

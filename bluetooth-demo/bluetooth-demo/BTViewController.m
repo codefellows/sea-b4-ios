@@ -60,34 +60,35 @@ static const CGFloat bubbleSize = 100.;
 
 -(void) bluetoothDataReceived:(NSNotification*)note
 {
-    NSDictionary *dict = [note object];
-    NSInteger command = [dict[@"command"] intValue];
-    switch( command ) {
-        case BluetoothCommandPickUp:
-        {
-            NSInteger viewNumber = [dict[@"viewNumber"] intValue];
-            BTBubbleView *bubble = self.view.subviews[viewNumber];
-            if( [bubble isKindOfClass:[BTBubbleView class]] )
-                [bubble pickUp];
-            break;
+    [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+        NSDictionary *dict = [note object];
+        NSInteger command = [dict[@"command"] intValue];
+        switch( command ) {
+            case BluetoothCommandPickUp:
+            {
+                NSInteger viewNumber = [dict[@"viewNumber"] intValue];
+                BTBubbleView *bubble = self.view.subviews[viewNumber];
+                if( [bubble isKindOfClass:[BTBubbleView class]] )
+                    [bubble pickUp];
+                break;
+            }
+            case BluetoothCommandDrop:
+            {
+                NSInteger viewNumber = [dict[@"viewNumber"] intValue];
+                BTBubbleView *bubble = self.view.subviews[viewNumber];
+                if( [bubble isKindOfClass:[BTBubbleView class]] )
+                    [bubble drop];
+                break;
+            }
+            case BluetoothCommandMove:
+            {
+                NSInteger viewNumber = [dict[@"viewNumber"] intValue];
+                BTBubbleView *bubble = self.view.subviews[viewNumber];
+                if( [bubble isKindOfClass:[BTBubbleView class]] )
+                    bubble.center = [dict[@"newCenter"] CGPointValue];
+            }
         }
-        case BluetoothCommandDrop:
-        {
-            NSInteger viewNumber = [dict[@"viewNumber"] intValue];
-            BTBubbleView *bubble = self.view.subviews[viewNumber];
-            if( [bubble isKindOfClass:[BTBubbleView class]] )
-                [bubble drop];
-            break;
-        }
-        case BluetoothCommandMove:
-        {
-            NSInteger viewNumber = [dict[@"viewNumber"] intValue];
-            BTBubbleView *bubble = self.view.subviews[viewNumber];
-            if( [bubble isKindOfClass:[BTBubbleView class]] )
-                bubble.center = [dict[@"newCenter"] CGPointValue];
-        }
-    }
-    NSLog( @"received %@", dict );
+    }];
 }
 
 @end

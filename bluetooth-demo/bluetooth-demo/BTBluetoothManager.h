@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <GameKit/GameKit.h>
+//#import <GameKit/GameKit.h>
+#import <MultipeerConnectivity/MultipeerConnectivity.h>
 
 typedef enum {
     BluetoothCommandHandshake=1,
@@ -20,12 +21,13 @@ typedef enum {
 } BluetoothCommand;
 
 
-@interface BTBluetoothManager : NSObject <GKSessionDelegate, GKPeerPickerControllerDelegate>
+@interface BTBluetoothManager : NSObject <MCNearbyServiceBrowserDelegate, MCNearbyServiceAdvertiserDelegate, MCSessionDelegate>
 {
-    GKSession *session;
-    NSString *peerId;
+    MCNearbyServiceBrowser *nearbyBrowser;
+    MCNearbyServiceAdvertiser *nearbyAdvertiser;
 
-    GKPeerPickerController *connectionPicker;
+    MCSession *session;
+    NSString *peerId;
 
     NSDate *playerIndexTimestamp;
 }
