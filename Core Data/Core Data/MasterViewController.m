@@ -10,7 +10,11 @@
 
 #import "DetailViewController.h"
 
-@interface MasterViewController () <UIAlertViewDelegate>
+@interface MasterViewController () <UIAlertViewDelegate, UISearchBarDelegate>
+{
+    BOOL filtered;
+    NSPredicate *predicate;
+}
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath;
 @end
 
@@ -24,7 +28,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    filtered = NO;
+    
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addNewFeed:)];
@@ -87,7 +93,12 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     id <NSFetchedResultsSectionInfo> sectionInfo = [self.fetchedResultsController sections][section];
-    return [sectionInfo numberOfObjects];
+    
+    if (predicate) {
+        return [[[sectionInfo objects] filteredArrayUsingPredicate:predicate] count];
+    }
+    
+    return [[sectionInfo objects] count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -129,7 +140,15 @@
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSManagedObject *object = [[self fetchedResultsController] objectAtIndexPath:indexPath];
+        NSManagedObject *object;
+        
+        if (predicate) {
+            NSArray *filteredArray = [[_fetchedResultsController fetchedObjects] filteredArrayUsingPredicate:predicate];
+            object = [filteredArray objectAtIndex:indexPath.row];
+        } else {
+            object = [[self fetchedResultsController] objectAtIndexPath:indexPath];
+        }
+        
         [[segue destinationViewController] setDetailItem:object];
     }
 }
@@ -156,6 +175,10 @@
     
     [fetchRequest setSortDescriptors:sortDescriptors];
     
+    if (predicate) {
+        [fetchRequest setPredicate:predicate];
+    }
+    
     // Edit the section name key path and cache name if appropriate.
     // nil for section name key path means "no sections".
     NSFetchedResultsController *aFetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:self.managedObjectContext sectionNameKeyPath:nil cacheName:@"Master"];
@@ -171,7 +194,19 @@
 	}
     
     return _fetchedResultsController;
-}    
+}
+
+- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText
+{
+    if (searchText.length) {
+        predicate = [NSPredicate predicateWithFormat:@"name contains[cd] %@", searchText];
+    } else {
+        predicate = nil;
+    }
+    
+    [self fetchedResultsController];
+    [self.tableView reloadData];
+}
 
 - (void)controllerWillChangeContent:(NSFetchedResultsController *)controller
 {
@@ -235,7 +270,18 @@
 
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath
 {
-    NSManagedObject *object = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    NSManagedObject *object;
+    
+    if (predicate)
+    {
+        NSArray *filteredArray = [[_fetchedResultsController fetchedObjects] filteredArrayUsingPredicate:predicate];
+        object = [filteredArray objectAtIndex:indexPath.row];
+    }
+    else
+    {
+        object = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    }
+    
     cell.textLabel.text = [object valueForKey:@"name"];
 }
 
