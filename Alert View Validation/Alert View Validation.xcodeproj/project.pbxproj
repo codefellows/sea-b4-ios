@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF72354217FB408300F2EBFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF72354117FB408300F2EBFB /* Foundation.framework */; };
+		EF72354417FB408300F2EBFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF72354317FB408300F2EBFB /* CoreGraphics.framework */; };
+		EF72354617FB408300F2EBFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF72354517FB408300F2EBFB /* UIKit.framework */; };
+		EF72354C17FB408300F2EBFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF72354A17FB408300F2EBFB /* InfoPlist.strings */; };
+		EF72354E17FB408300F2EBFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF72354D17FB408300F2EBFB /* main.m */; };
+		EF72355217FB408300F2EBFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF72355117FB408300F2EBFB /* AppDelegate.m */; };
+		EF72355517FB408300F2EBFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF72355317FB408300F2EBFB /* Main.storyboard */; };
+		EF72355817FB408300F2EBFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF72355717FB408300F2EBFB /* ViewController.m */; };
+		EF72355A17FB408300F2EBFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF72355917FB408300F2EBFB /* Images.xcassets */; };
+		EF72356117FB408300F2EBFB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF72356017FB408300F2EBFB /* XCTest.framework */; };
+		EF72356217FB408300F2EBFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF72354117FB408300F2EBFB /* Foundation.framework */; };
+		EF72356317FB408300F2EBFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF72354517FB408300F2EBFB /* UIKit.framework */; };
+		EF72356B17FB408300F2EBFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF72356917FB408300F2EBFB /* InfoPlist.strings */; };
+		EF72356D17FB408300F2EBFB /* Alert_View_ValidationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF72356C17FB408300F2EBFB /* Alert_View_ValidationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF72356417FB408300F2EBFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF72353617FB408300F2EBFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF72353D17FB408300F2EBFB;
+			remoteInfo = "Alert View Validation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF72353E17FB408300F2EBFB /* Alert View Validation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alert View Validation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF72354117FB408300F2EBFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF72354317FB408300F2EBFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF72354517FB408300F2EBFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF72354917FB408300F2EBFB /* Alert View Validation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Alert View Validation-Info.plist"; sourceTree = "<group>"; };
+		EF72354B17FB408300F2EBFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF72354D17FB408300F2EBFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF72354F17FB408300F2EBFB /* Alert View Validation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alert View Validation-Prefix.pch"; sourceTree = "<group>"; };
+		EF72355017FB408300F2EBFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF72355117FB408300F2EBFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF72355417FB408300F2EBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF72355617FB408300F2EBFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF72355717FB408300F2EBFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF72355917FB408300F2EBFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF72355F17FB408300F2EBFB /* Alert View ValidationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alert View ValidationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF72356017FB408300F2EBFB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF72356817FB408300F2EBFB /* Alert View ValidationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Alert View ValidationTests-Info.plist"; sourceTree = "<group>"; };
+		EF72356A17FB408300F2EBFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF72356C17FB408300F2EBFB /* Alert_View_ValidationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Alert_View_ValidationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF72353B17FB408300F2EBFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF72354417FB408300F2EBFB /* CoreGraphics.framework in Frameworks */,
+				EF72354617FB408300F2EBFB /* UIKit.framework in Frameworks */,
+				EF72354217FB408300F2EBFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF72355C17FB408300F2EBFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF72356117FB408300F2EBFB /* XCTest.framework in Frameworks */,
+				EF72356317FB408300F2EBFB /* UIKit.framework in Frameworks */,
+				EF72356217FB408300F2EBFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF72353517FB408300F2EBFB = {
+			isa = PBXGroup;
+			children = (
+				EF72354717FB408300F2EBFB /* Alert View Validation */,
+				EF72356617FB408300F2EBFB /* Alert View ValidationTests */,
+				EF72354017FB408300F2EBFB /* Frameworks */,
+				EF72353F17FB408300F2EBFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF72353F17FB408300F2EBFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF72353E17FB408300F2EBFB /* Alert View Validation.app */,
+				EF72355F17FB408300F2EBFB /* Alert View ValidationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF72354017FB408300F2EBFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF72354117FB408300F2EBFB /* Foundation.framework */,
+				EF72354317FB408300F2EBFB /* CoreGraphics.framework */,
+				EF72354517FB408300F2EBFB /* UIKit.framework */,
+				EF72356017FB408300F2EBFB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF72354717FB408300F2EBFB /* Alert View Validation */ = {
+			isa = PBXGroup;
+			children = (
+				EF72355017FB408300F2EBFB /* AppDelegate.h */,
+				EF72355117FB408300F2EBFB /* AppDelegate.m */,
+				EF72355317FB408300F2EBFB /* Main.storyboard */,
+				EF72355617FB408300F2EBFB /* ViewController.h */,
+				EF72355717FB408300F2EBFB /* ViewController.m */,
+				EF72355917FB408300F2EBFB /* Images.xcassets */,
+				EF72354817FB408300F2EBFB /* Supporting Files */,
+			);
+			path = "Alert View Validation";
+			sourceTree = "<group>";
+		};
+		EF72354817FB408300F2EBFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF72354917FB408300F2EBFB /* Alert View Validation-Info.plist */,
+				EF72354A17FB408300F2EBFB /* InfoPlist.strings */,
+				EF72354D17FB408300F2EBFB /* main.m */,
+				EF72354F17FB408300F2EBFB /* Alert View Validation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF72356617FB408300F2EBFB /* Alert View ValidationTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF72356C17FB408300F2EBFB /* Alert_View_ValidationTests.m */,
+				EF72356717FB408300F2EBFB /* Supporting Files */,
+			);
+			path = "Alert View ValidationTests";
+			sourceTree = "<group>";
+		};
+		EF72356717FB408300F2EBFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF72356817FB408300F2EBFB /* Alert View ValidationTests-Info.plist */,
+				EF72356917FB408300F2EBFB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF72353D17FB408300F2EBFB /* Alert View Validation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF72357017FB408300F2EBFB /* Build configuration list for PBXNativeTarget "Alert View Validation" */;
+			buildPhases = (
+				EF72353A17FB408300F2EBFB /* Sources */,
+				EF72353B17FB408300F2EBFB /* Frameworks */,
+				EF72353C17FB408300F2EBFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alert View Validation";
+			productName = "Alert View Validation";
+			productReference = EF72353E17FB408300F2EBFB /* Alert View Validation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF72355E17FB408300F2EBFB /* Alert View ValidationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF72357317FB408300F2EBFB /* Build configuration list for PBXNativeTarget "Alert View ValidationTests" */;
+			buildPhases = (
+				EF72355B17FB408300F2EBFB /* Sources */,
+				EF72355C17FB408300F2EBFB /* Frameworks */,
+				EF72355D17FB408300F2EBFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF72356517FB408300F2EBFB /* PBXTargetDependency */,
+			);
+			name = "Alert View ValidationTests";
+			productName = "Alert View ValidationTests";
+			productReference = EF72355F17FB408300F2EBFB /* Alert View ValidationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF72353617FB408300F2EBFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Code Fellows";
+				TargetAttributes = {
+					EF72355E17FB408300F2EBFB = {
+						TestTargetID = EF72353D17FB408300F2EBFB;
+					};
+				};
+			};
+			buildConfigurationList = EF72353917FB408300F2EBFB /* Build configuration list for PBXProject "Alert View Validation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF72353517FB408300F2EBFB;
+			productRefGroup = EF72353F17FB408300F2EBFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF72353D17FB408300F2EBFB /* Alert View Validation */,
+				EF72355E17FB408300F2EBFB /* Alert View ValidationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF72353C17FB408300F2EBFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF72355A17FB408300F2EBFB /* Images.xcassets in Resources */,
+				EF72354C17FB408300F2EBFB /* InfoPlist.strings in Resources */,
+				EF72355517FB408300F2EBFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF72355D17FB408300F2EBFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF72356B17FB408300F2EBFB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF72353A17FB408300F2EBFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF72355817FB408300F2EBFB /* ViewController.m in Sources */,
+				EF72355217FB408300F2EBFB /* AppDelegate.m in Sources */,
+				EF72354E17FB408300F2EBFB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF72355B17FB408300F2EBFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF72356D17FB408300F2EBFB /* Alert_View_ValidationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF72356517FB408300F2EBFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF72353D17FB408300F2EBFB /* Alert View Validation */;
+			targetProxy = EF72356417FB408300F2EBFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF72354A17FB408300F2EBFB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF72354B17FB408300F2EBFB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF72355317FB408300F2EBFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF72355417FB408300F2EBFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF72356917FB408300F2EBFB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF72356A17FB408300F2EBFB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF72356E17FB408300F2EBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF72356F17FB408300F2EBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF72357117FB408300F2EBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alert View Validation/Alert View Validation-Prefix.pch";
+				INFOPLIST_FILE = "Alert View Validation/Alert View Validation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF72357217FB408300F2EBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alert View Validation/Alert View Validation-Prefix.pch";
+				INFOPLIST_FILE = "Alert View Validation/Alert View Validation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF72357417FB408300F2EBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Alert View Validation.app/Alert View Validation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alert View Validation/Alert View Validation-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Alert View ValidationTests/Alert View ValidationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF72357517FB408300F2EBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Alert View Validation.app/Alert View Validation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alert View Validation/Alert View Validation-Prefix.pch";
+				INFOPLIST_FILE = "Alert View ValidationTests/Alert View ValidationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF72353917FB408300F2EBFB /* Build configuration list for PBXProject "Alert View Validation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF72356E17FB408300F2EBFB /* Debug */,
+				EF72356F17FB408300F2EBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF72357017FB408300F2EBFB /* Build configuration list for PBXNativeTarget "Alert View Validation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF72357117FB408300F2EBFB /* Debug */,
+				EF72357217FB408300F2EBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF72357317FB408300F2EBFB /* Build configuration list for PBXNativeTarget "Alert View ValidationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF72357417FB408300F2EBFB /* Debug */,
+				EF72357517FB408300F2EBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF72353617FB408300F2EBFB /* Project object */;
+}
