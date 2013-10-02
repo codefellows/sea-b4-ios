@@ -381,6 +381,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Alert View Validation/Alert View Validation-Prefix.pch";
 				INFOPLIST_FILE = "Alert View Validation/Alert View Validation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +395,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Alert View Validation/Alert View Validation-Prefix.pch";
 				INFOPLIST_FILE = "Alert View Validation/Alert View Validation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,6 +462,7 @@
 				EF72357217FB408300F2EBFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF72357317FB408300F2EBFB /* Build configuration list for PBXNativeTarget "Alert View ValidationTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +471,7 @@
 				EF72357517FB408300F2EBFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
