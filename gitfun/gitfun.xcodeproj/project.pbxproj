@@ -124,6 +124,8 @@
 		C31F46D31805B95800BE8A6B /* gitfun */ = {
 			isa = PBXGroup;
 			children = (
+				734945101805C23A004E756D /* Trollerderby.h */,
+				734945111805C23A004E756D /* Trollerderby.m */,
 				C31F46DC1805B95800BE8A6B /* GFAppDelegate.h */,
 				C31F46DD1805B95800BE8A6B /* GFAppDelegate.m */,
 				C31F46DF1805B95800BE8A6B /* Main_iPhone.storyboard */,
@@ -275,6 +277,7 @@
 				D067D7BF1805C15800BC52AA /* GFWillsModel.m in Sources */,
 				C31F46E71805B95800BE8A6B /* GFViewController.m in Sources */,
 				C31F46DE1805B95800BE8A6B /* GFAppDelegate.m in Sources */,
+				734945121805C23A004E756D /* Trollerderby.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
