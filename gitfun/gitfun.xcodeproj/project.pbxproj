@@ -269,6 +269,7 @@
 				C31F46DA1805B95800BE8A6B /* main.m in Sources */,
 				C31F46E71805B95800BE8A6B /* GFViewController.m in Sources */,
 				C31F46DE1805B95800BE8A6B /* GFAppDelegate.m in Sources */,
+				0431C4E41805BE3200D21430 /* GFMegha.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
