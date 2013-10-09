@@ -11,7 +11,7 @@
 		0431C4E41805BE3200D21430 /* GFMegha.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431C4E31805BE3200D21430 /* GFMegha.m */; };
 		A6F34C1E1805BE2900A66D31 /* GFMySuperAwesomeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F34C1D1805BE2900A66D31 /* GFMySuperAwesomeOperation.m */; };
 		31C379901805C10900681EAF /* GFColoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C3798F1805C10900681EAF /* GFColoModel.m */; };
-		4AB6CDD71805C35400ED1DBD /* RykerLoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB6CDD51805C35400ED1DBD /* RykerLoveViewController.m */; };
+		4AB6CDDB1805C40100ED1DBD /* theRealRikerLove.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB6CDDA1805C40100ED1DBD /* theRealRikerLove.m */; };
 		C31F46CE1805B95800BE8A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CD1805B95800BE8A6B /* Foundation.framework */; };
 		C31F46D01805B95800BE8A6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */; };
 		C31F46D21805B95800BE8A6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46D11805B95800BE8A6B /* UIKit.framework */; };
@@ -56,8 +56,8 @@
 		A6F34C1D1805BE2900A66D31 /* GFMySuperAwesomeOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFMySuperAwesomeOperation.m; sourceTree = "<group>"; };
 		31C3798E1805C10900681EAF /* GFColoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFColoModel.h; sourceTree = "<group>"; };
 		31C3798F1805C10900681EAF /* GFColoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFColoModel.m; sourceTree = "<group>"; };
-		4AB6CDD41805C35400ED1DBD /* RykerLoveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RykerLoveViewController.h; path = ../RykerLoveViewController.h; sourceTree = "<group>"; };
-		4AB6CDD51805C35400ED1DBD /* RykerLoveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RykerLoveViewController.m; path = ../RykerLoveViewController.m; sourceTree = "<group>"; };
+		4AB6CDD91805C40100ED1DBD /* theRealRikerLove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = theRealRikerLove.h; path = ../theRealRikerLove.h; sourceTree = "<group>"; };
+		4AB6CDDA1805C40100ED1DBD /* theRealRikerLove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = theRealRikerLove.m; path = ../theRealRikerLove.m; sourceTree = "<group>"; };
 		C31F46CA1805B95800BE8A6B /* gitfun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitfun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31F46CD1805B95800BE8A6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -168,10 +168,10 @@
 				0431C4E31805BE3200D21430 /* GFMegha.m */,
 				D067D7BD1805C15800BC52AA /* GFWillsModel.h */,
 				D067D7BE1805C15800BC52AA /* GFWillsModel.m */,
-				4AB6CDD41805C35400ED1DBD /* RykerLoveViewController.h */,
-				4AB6CDD51805C35400ED1DBD /* RykerLoveViewController.m */,
 				C31F470B1805C30B00BE8A6B /* GFColoModel.h */,
 				C31F470C1805C30B00BE8A6B /* GFColoModel.m */,
+				4AB6CDD91805C40100ED1DBD /* theRealRikerLove.h */,
+				4AB6CDDA1805C40100ED1DBD /* theRealRikerLove.m */,
 				C31F470D1805C30B00BE8A6B /* GFMegha.h */,
 				C31F470E1805C30B00BE8A6B /* GFMegha.m */,
 				C31F470F1805C30B00BE8A6B /* GFMySuperAwesomeOperation.h */,
@@ -319,9 +319,9 @@
 				C31F47151805C30B00BE8A6B /* GFColoModel.m in Sources */,
 				C31F46DA1805B95800BE8A6B /* main.m in Sources */,
 				D067D7BF1805C15800BC52AA /* GFWillsModel.m in Sources */,
+				4AB6CDDB1805C40100ED1DBD /* theRealRikerLove.m in Sources */,
 				C31F47171805C30B00BE8A6B /* GFMySuperAwesomeOperation.m in Sources */,
 				C31F47161805C30B00BE8A6B /* GFMegha.m in Sources */,
-				4AB6CDD71805C35400ED1DBD /* RykerLoveViewController.m in Sources */,
 				C31F47181805C30B00BE8A6B /* GFNotGarbage.m in Sources */,
 				C31F47191805C30B00BE8A6B /* GFTrollololol.m in Sources */,
 				C31F46E71805B95800BE8A6B /* GFViewController.m in Sources */,
