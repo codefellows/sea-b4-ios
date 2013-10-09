@@ -11,7 +11,7 @@
 		0431C4E41805BE3200D21430 /* GFMegha.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431C4E31805BE3200D21430 /* GFMegha.m */; };
 		A6F34C1E1805BE2900A66D31 /* GFMySuperAwesomeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F34C1D1805BE2900A66D31 /* GFMySuperAwesomeOperation.m */; };
 		31C379901805C10900681EAF /* GFColoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C3798F1805C10900681EAF /* GFColoModel.m */; };
-		3CF03DA91805BE3F00AA29A6 /* KocejaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF03DA81805BE3F00AA29A6 /* KocejaObject.m */; };
+		4AB6CDD71805C35400ED1DBD /* RykerLoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB6CDD51805C35400ED1DBD /* RykerLoveViewController.m */; };
 		C31F46CE1805B95800BE8A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CD1805B95800BE8A6B /* Foundation.framework */; };
 		C31F46D01805B95800BE8A6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */; };
 		C31F46D21805B95800BE8A6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46D11805B95800BE8A6B /* UIKit.framework */; };
@@ -28,6 +28,13 @@
 		C31F46FA1805B95900BE8A6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C31F46F81805B95900BE8A6B /* InfoPlist.strings */; };
 		C31F46FC1805B95900BE8A6B /* gitfunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F46FB1805B95900BE8A6B /* gitfunTests.m */; };
 		C31F47071805BE2D00BE8A6B /* GFNotGarbage.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F47061805BE2D00BE8A6B /* GFNotGarbage.m */; };
+		C31F470A1805C2AF00BE8A6B /* GFAgainNotGarbage.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F47091805C2AF00BE8A6B /* GFAgainNotGarbage.m */; };
+		C31F47151805C30B00BE8A6B /* GFColoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F470C1805C30B00BE8A6B /* GFColoModel.m */; };
+		C31F47161805C30B00BE8A6B /* GFMegha.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F470E1805C30B00BE8A6B /* GFMegha.m */; };
+		C31F47171805C30B00BE8A6B /* GFMySuperAwesomeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F47101805C30B00BE8A6B /* GFMySuperAwesomeOperation.m */; };
+		C31F47181805C30B00BE8A6B /* GFNotGarbage.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F47121805C30B00BE8A6B /* GFNotGarbage.m */; };
+		C31F47191805C30B00BE8A6B /* GFTrollololol.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F47141805C30B00BE8A6B /* GFTrollololol.m */; };
+		D067D7BF1805C15800BC52AA /* GFWillsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D067D7BE1805C15800BC52AA /* GFWillsModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +56,8 @@
 		A6F34C1D1805BE2900A66D31 /* GFMySuperAwesomeOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFMySuperAwesomeOperation.m; sourceTree = "<group>"; };
 		31C3798E1805C10900681EAF /* GFColoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFColoModel.h; sourceTree = "<group>"; };
 		31C3798F1805C10900681EAF /* GFColoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFColoModel.m; sourceTree = "<group>"; };
-		3CF03DA71805BE3F00AA29A6 /* KocejaObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KocejaObject.h; sourceTree = "<group>"; };
-		3CF03DA81805BE3F00AA29A6 /* KocejaObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KocejaObject.m; sourceTree = "<group>"; };
+		4AB6CDD41805C35400ED1DBD /* RykerLoveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RykerLoveViewController.h; path = ../RykerLoveViewController.h; sourceTree = "<group>"; };
+		4AB6CDD51805C35400ED1DBD /* RykerLoveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RykerLoveViewController.m; path = ../RykerLoveViewController.m; sourceTree = "<group>"; };
 		C31F46CA1805B95800BE8A6B /* gitfun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitfun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31F46CD1805B95800BE8A6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -72,6 +79,20 @@
 		C31F46F91805B95900BE8A6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C31F46FB1805B95900BE8A6B /* gitfunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitfunTests.m; sourceTree = "<group>"; };
 		C31F47061805BE2D00BE8A6B /* GFNotGarbage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFNotGarbage.m; sourceTree = "<group>"; };
+		C31F47081805C2AF00BE8A6B /* GFAgainNotGarbage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFAgainNotGarbage.h; sourceTree = "<group>"; };
+		C31F47091805C2AF00BE8A6B /* GFAgainNotGarbage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFAgainNotGarbage.m; sourceTree = "<group>"; };
+		C31F470B1805C30B00BE8A6B /* GFColoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFColoModel.h; sourceTree = "<group>"; };
+		C31F470C1805C30B00BE8A6B /* GFColoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFColoModel.m; sourceTree = "<group>"; };
+		C31F470D1805C30B00BE8A6B /* GFMegha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFMegha.h; sourceTree = "<group>"; };
+		C31F470E1805C30B00BE8A6B /* GFMegha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFMegha.m; sourceTree = "<group>"; };
+		C31F470F1805C30B00BE8A6B /* GFMySuperAwesomeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFMySuperAwesomeOperation.h; sourceTree = "<group>"; };
+		C31F47101805C30B00BE8A6B /* GFMySuperAwesomeOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFMySuperAwesomeOperation.m; sourceTree = "<group>"; };
+		C31F47111805C30B00BE8A6B /* GFNotGarbage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFNotGarbage.h; sourceTree = "<group>"; };
+		C31F47121805C30B00BE8A6B /* GFNotGarbage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFNotGarbage.m; sourceTree = "<group>"; };
+		C31F47131805C30B00BE8A6B /* GFTrollololol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFTrollololol.h; sourceTree = "<group>"; };
+		C31F47141805C30B00BE8A6B /* GFTrollololol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFTrollololol.m; sourceTree = "<group>"; };
+		D067D7BD1805C15800BC52AA /* GFWillsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFWillsModel.h; sourceTree = "<group>"; };
+		D067D7BE1805C15800BC52AA /* GFWillsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFWillsModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,20 +154,32 @@
 			children = (
 				C31F46DC1805B95800BE8A6B /* GFAppDelegate.h */,
 				C31F46DD1805B95800BE8A6B /* GFAppDelegate.m */,
-				3CF03DA71805BE3F00AA29A6 /* KocejaObject.h */,
-				31C3798E1805C10900681EAF /* GFColoModel.h */,
-				31C3798F1805C10900681EAF /* GFColoModel.m */,
-				3CF03DA81805BE3F00AA29A6 /* KocejaObject.m */,
 				C31F46DF1805B95800BE8A6B /* Main_iPhone.storyboard */,
 				C31F46E21805B95800BE8A6B /* Main_iPad.storyboard */,
 				C31F46E51805B95800BE8A6B /* GFViewController.h */,
 				C31F46E61805B95800BE8A6B /* GFViewController.m */,
+				C31F47081805C2AF00BE8A6B /* GFAgainNotGarbage.h */,
+				C31F47091805C2AF00BE8A6B /* GFAgainNotGarbage.m */,
 				C31F46E81805B95800BE8A6B /* Images.xcassets */,
 				C31F46D41805B95800BE8A6B /* Supporting Files */,
 				32CBEC311805BE7C00D2242D /* GFJorenObject.h */,
 				32CBEC321805BE7C00D2242D /* GFJorenObject.m */,
 				0431C4E21805BE3200D21430 /* GFMegha.h */,
 				0431C4E31805BE3200D21430 /* GFMegha.m */,
+				D067D7BD1805C15800BC52AA /* GFWillsModel.h */,
+				D067D7BE1805C15800BC52AA /* GFWillsModel.m */,
+				4AB6CDD41805C35400ED1DBD /* RykerLoveViewController.h */,
+				4AB6CDD51805C35400ED1DBD /* RykerLoveViewController.m */,
+				C31F470B1805C30B00BE8A6B /* GFColoModel.h */,
+				C31F470C1805C30B00BE8A6B /* GFColoModel.m */,
+				C31F470D1805C30B00BE8A6B /* GFMegha.h */,
+				C31F470E1805C30B00BE8A6B /* GFMegha.m */,
+				C31F470F1805C30B00BE8A6B /* GFMySuperAwesomeOperation.h */,
+				C31F47101805C30B00BE8A6B /* GFMySuperAwesomeOperation.m */,
+				C31F47111805C30B00BE8A6B /* GFNotGarbage.h */,
+				C31F47121805C30B00BE8A6B /* GFNotGarbage.m */,
+				C31F47131805C30B00BE8A6B /* GFTrollololol.h */,
+				C31F47141805C30B00BE8A6B /* GFTrollololol.m */,
 			);
 			path = gitfun;
 			sourceTree = "<group>";
@@ -281,11 +314,17 @@
 			files = (
 				32CBEC331805BE7C00D2242D /* GFJorenObject.m in Sources */,
 				C31F47071805BE2D00BE8A6B /* GFNotGarbage.m in Sources */,
+				C31F470A1805C2AF00BE8A6B /* GFAgainNotGarbage.m in Sources */,
 				31C379901805C10900681EAF /* GFColoModel.m in Sources */,
+				C31F47151805C30B00BE8A6B /* GFColoModel.m in Sources */,
 				C31F46DA1805B95800BE8A6B /* main.m in Sources */,
-				3CF03DA91805BE3F00AA29A6 /* KocejaObject.m in Sources */,
+				D067D7BF1805C15800BC52AA /* GFWillsModel.m in Sources */,
+				C31F47171805C30B00BE8A6B /* GFMySuperAwesomeOperation.m in Sources */,
+				C31F47161805C30B00BE8A6B /* GFMegha.m in Sources */,
+				4AB6CDD71805C35400ED1DBD /* RykerLoveViewController.m in Sources */,
+				C31F47181805C30B00BE8A6B /* GFNotGarbage.m in Sources */,
+				C31F47191805C30B00BE8A6B /* GFTrollololol.m in Sources */,
 				C31F46E71805B95800BE8A6B /* GFViewController.m in Sources */,
-				A6F34C1E1805BE2900A66D31 /* GFMySuperAwesomeOperation.m in Sources */,
 				C31F46DE1805B95800BE8A6B /* GFAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
