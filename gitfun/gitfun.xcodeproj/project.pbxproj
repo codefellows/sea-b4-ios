@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		31C379901805C10900681EAF /* GFColoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C3798F1805C10900681EAF /* GFColoModel.m */; };
 		4AB6CDD71805C35400ED1DBD /* RykerLoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB6CDD51805C35400ED1DBD /* RykerLoveViewController.m */; };
-		4AB6CDD81805C35400ED1DBD /* RykerLoveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AB6CDD61805C35400ED1DBD /* RykerLoveViewController.xib */; };
 		C31F46CE1805B95800BE8A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CD1805B95800BE8A6B /* Foundation.framework */; };
 		C31F46D01805B95800BE8A6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */; };
 		C31F46D21805B95800BE8A6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46D11805B95800BE8A6B /* UIKit.framework */; };
@@ -47,9 +46,8 @@
 
 /* Begin PBXFileReference section */
 		31C3798F1805C10900681EAF /* GFColoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFColoModel.m; sourceTree = "<group>"; };
-		4AB6CDD41805C35400ED1DBD /* RykerLoveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RykerLoveViewController.h; sourceTree = "<group>"; };
-		4AB6CDD51805C35400ED1DBD /* RykerLoveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RykerLoveViewController.m; sourceTree = "<group>"; };
-		4AB6CDD61805C35400ED1DBD /* RykerLoveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RykerLoveViewController.xib; sourceTree = "<group>"; };
+		4AB6CDD41805C35400ED1DBD /* RykerLoveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RykerLoveViewController.h; path = ../RykerLoveViewController.h; sourceTree = "<group>"; };
+		4AB6CDD51805C35400ED1DBD /* RykerLoveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RykerLoveViewController.m; path = ../RykerLoveViewController.m; sourceTree = "<group>"; };
 		C31F46CA1805B95800BE8A6B /* gitfun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitfun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31F46CD1805B95800BE8A6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -114,9 +112,6 @@
 		C31F46C11805B95800BE8A6B = {
 			isa = PBXGroup;
 			children = (
-				4AB6CDD41805C35400ED1DBD /* RykerLoveViewController.h */,
-				4AB6CDD51805C35400ED1DBD /* RykerLoveViewController.m */,
-				4AB6CDD61805C35400ED1DBD /* RykerLoveViewController.xib */,
 				C31F46D31805B95800BE8A6B /* gitfun */,
 				C31F46F51805B95800BE8A6B /* gitfunTests */,
 				C31F46CC1805B95800BE8A6B /* Frameworks */,
@@ -159,6 +154,8 @@
 				C31F46D41805B95800BE8A6B /* Supporting Files */,
 				D067D7BD1805C15800BC52AA /* GFWillsModel.h */,
 				D067D7BE1805C15800BC52AA /* GFWillsModel.m */,
+				4AB6CDD41805C35400ED1DBD /* RykerLoveViewController.h */,
+				4AB6CDD51805C35400ED1DBD /* RykerLoveViewController.m */,
 				C31F470B1805C30B00BE8A6B /* GFColoModel.h */,
 				C31F470C1805C30B00BE8A6B /* GFColoModel.m */,
 				C31F470D1805C30B00BE8A6B /* GFMegha.h */,
@@ -283,7 +280,6 @@
 				C31F46E91805B95800BE8A6B /* Images.xcassets in Resources */,
 				C31F46E11805B95800BE8A6B /* Main_iPhone.storyboard in Resources */,
 				C31F46D81805B95800BE8A6B /* InfoPlist.strings in Resources */,
-				4AB6CDD81805C35400ED1DBD /* RykerLoveViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
