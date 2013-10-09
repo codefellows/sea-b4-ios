@@ -25,6 +25,7 @@
 		C31F46FC1805B95900BE8A6B /* gitfunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F46FB1805B95900BE8A6B /* gitfunTests.m */; };
 		C31F47071805BE2D00BE8A6B /* GFNotGarbage.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F47061805BE2D00BE8A6B /* GFNotGarbage.m */; };
 		C31F470A1805C2AF00BE8A6B /* GFAgainNotGarbage.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F47091805C2AF00BE8A6B /* GFAgainNotGarbage.m */; };
+		CBDA548D1805C39F0096AC96 /* GFGoodTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDA548C1805C39F0096AC96 /* GFGoodTimes.m */; };
 		D067D7BF1805C15800BC52AA /* GFWillsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D067D7BE1805C15800BC52AA /* GFWillsModel.m */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,8 @@
 		C31F47061805BE2D00BE8A6B /* GFNotGarbage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFNotGarbage.m; sourceTree = "<group>"; };
 		C31F47081805C2AF00BE8A6B /* GFAgainNotGarbage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFAgainNotGarbage.h; sourceTree = "<group>"; };
 		C31F47091805C2AF00BE8A6B /* GFAgainNotGarbage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFAgainNotGarbage.m; sourceTree = "<group>"; };
+		CBDA548B1805C39F0096AC96 /* GFGoodTimes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGoodTimes.h; sourceTree = "<group>"; };
+		CBDA548C1805C39F0096AC96 /* GFGoodTimes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGoodTimes.m; sourceTree = "<group>"; };
 		D067D7BD1805C15800BC52AA /* GFWillsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFWillsModel.h; sourceTree = "<group>"; };
 		D067D7BE1805C15800BC52AA /* GFWillsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFWillsModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,12 +127,12 @@
 		C31F46D31805B95800BE8A6B /* gitfun */ = {
 			isa = PBXGroup;
 			children = (
-				734945101805C23A004E756D /* Trollerderby.h */,
-				734945111805C23A004E756D /* Trollerderby.m */,
 				C31F46DC1805B95800BE8A6B /* GFAppDelegate.h */,
 				C31F46DD1805B95800BE8A6B /* GFAppDelegate.m */,
 				C31F46DF1805B95800BE8A6B /* Main_iPhone.storyboard */,
 				C31F46E21805B95800BE8A6B /* Main_iPad.storyboard */,
+				CBDA548B1805C39F0096AC96 /* GFGoodTimes.h */,
+				CBDA548C1805C39F0096AC96 /* GFGoodTimes.m */,
 				C31F46E51805B95800BE8A6B /* GFViewController.h */,
 				C31F46E61805B95800BE8A6B /* GFViewController.m */,
 				C31F47081805C2AF00BE8A6B /* GFAgainNotGarbage.h */,
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBDA548D1805C39F0096AC96 /* GFGoodTimes.m in Sources */,
 				C31F47071805BE2D00BE8A6B /* GFNotGarbage.m in Sources */,
 				C31F470A1805C2AF00BE8A6B /* GFAgainNotGarbage.m in Sources */,
 				31C379901805C10900681EAF /* GFColoModel.m in Sources */,
@@ -277,7 +281,6 @@
 				D067D7BF1805C15800BC52AA /* GFWillsModel.m in Sources */,
 				C31F46E71805B95800BE8A6B /* GFViewController.m in Sources */,
 				C31F46DE1805B95800BE8A6B /* GFAppDelegate.m in Sources */,
-				734945121805C23A004E756D /* Trollerderby.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
