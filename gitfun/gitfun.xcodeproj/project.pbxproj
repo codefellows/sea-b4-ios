@@ -22,6 +22,7 @@
 		C31F46F21805B95800BE8A6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46D11805B95800BE8A6B /* UIKit.framework */; };
 		C31F46FA1805B95900BE8A6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C31F46F81805B95900BE8A6B /* InfoPlist.strings */; };
 		C31F46FC1805B95900BE8A6B /* gitfunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F46FB1805B95900BE8A6B /* gitfunTests.m */; };
+		C31F47071805BE2D00BE8A6B /* GFNotGarbage.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F47061805BE2D00BE8A6B /* GFNotGarbage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		C31F46F71805B95900BE8A6B /* gitfunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitfunTests-Info.plist"; sourceTree = "<group>"; };
 		C31F46F91805B95900BE8A6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C31F46FB1805B95900BE8A6B /* gitfunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitfunTests.m; sourceTree = "<group>"; };
+		C31F47051805BE2D00BE8A6B /* GFNotGarbage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFNotGarbage.h; sourceTree = "<group>"; };
+		C31F47061805BE2D00BE8A6B /* GFNotGarbage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFNotGarbage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				C31F46E21805B95800BE8A6B /* Main_iPad.storyboard */,
 				C31F46E51805B95800BE8A6B /* GFViewController.h */,
 				C31F46E61805B95800BE8A6B /* GFViewController.m */,
+				C31F47051805BE2D00BE8A6B /* GFNotGarbage.h */,
+				C31F47061805BE2D00BE8A6B /* GFNotGarbage.m */,
 				C31F46E81805B95800BE8A6B /* Images.xcassets */,
 				C31F46D41805B95800BE8A6B /* Supporting Files */,
 			);
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C31F47071805BE2D00BE8A6B /* GFNotGarbage.m in Sources */,
 				C31F46DA1805B95800BE8A6B /* main.m in Sources */,
 				C31F46E71805B95800BE8A6B /* GFViewController.m in Sources */,
 				C31F46DE1805B95800BE8A6B /* GFAppDelegate.m in Sources */,
@@ -475,6 +481,7 @@
 				C31F47011805B95900BE8A6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C31F47021805B95900BE8A6B /* Build configuration list for PBXNativeTarget "gitfunTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +490,7 @@
 				C31F47041805B95900BE8A6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
