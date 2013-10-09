@@ -17,6 +17,9 @@
 		734945211805C57C004E756D /* GFColoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 734945201805C57C004E756D /* GFColoModel.m */; };
 		734945241805C5A4004E756D /* GFTrollololol.m in Sources */ = {isa = PBXBuildFile; fileRef = 734945231805C5A4004E756D /* GFTrollololol.m */; };
 		734945271805C5B8004E756D /* GFNotGarbage.m in Sources */ = {isa = PBXBuildFile; fileRef = 734945261805C5B8004E756D /* GFNotGarbage.m */; };
+		A203FC0F1805C4E000F688DE /* TheRock.m in Sources */ = {isa = PBXBuildFile; fileRef = A203FC0E1805C4E000F688DE /* TheRock.m */; };
+		A203FC121805C53800F688DE /* TheRock2.m in Sources */ = {isa = PBXBuildFile; fileRef = A203FC111805C53800F688DE /* TheRock2.m */; };
+		A203FC151805C57900F688DE /* TheRock3.m in Sources */ = {isa = PBXBuildFile; fileRef = A203FC141805C57900F688DE /* TheRock3.m */; };
 		A6F34C211805C44200A66D31 /* GFStopAddingClassesDanny.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F34C201805C44200A66D31 /* GFStopAddingClassesDanny.m */; };
 		C31F46CE1805B95800BE8A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CD1805B95800BE8A6B /* Foundation.framework */; };
 		C31F46D01805B95800BE8A6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */; };
@@ -72,6 +75,12 @@
 		734945231805C5A4004E756D /* GFTrollololol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFTrollololol.m; sourceTree = "<group>"; };
 		734945251805C5B8004E756D /* GFNotGarbage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFNotGarbage.h; sourceTree = "<group>"; };
 		734945261805C5B8004E756D /* GFNotGarbage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFNotGarbage.m; sourceTree = "<group>"; };
+		A203FC0D1805C4E000F688DE /* TheRock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TheRock.h; path = ../TheRock.h; sourceTree = "<group>"; };
+		A203FC0E1805C4E000F688DE /* TheRock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TheRock.m; path = ../TheRock.m; sourceTree = "<group>"; };
+		A203FC101805C53800F688DE /* TheRock2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TheRock2.h; path = ../TheRock2.h; sourceTree = "<group>"; };
+		A203FC111805C53800F688DE /* TheRock2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TheRock2.m; path = ../TheRock2.m; sourceTree = "<group>"; };
+		A203FC131805C57900F688DE /* TheRock3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheRock3.h; sourceTree = "<group>"; };
+		A203FC141805C57900F688DE /* TheRock3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheRock3.m; sourceTree = "<group>"; };
 		A6F34C1F1805C44200A66D31 /* GFStopAddingClassesDanny.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFStopAddingClassesDanny.h; sourceTree = "<group>"; };
 		A6F34C201805C44200A66D31 /* GFStopAddingClassesDanny.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFStopAddingClassesDanny.m; sourceTree = "<group>"; };
 		C31F46CA1805B95800BE8A6B /* gitfun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitfun.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -192,6 +201,14 @@
 				C31F46DD1805B95800BE8A6B /* GFAppDelegate.m */,
 				734945251805C5B8004E756D /* GFNotGarbage.h */,
 				734945261805C5B8004E756D /* GFNotGarbage.m */,
+				A203FC0D1805C4E000F688DE /* TheRock.h */,
+				A203FC101805C53800F688DE /* TheRock2.h */,
+				A203FC131805C57900F688DE /* TheRock3.h */,
+				A203FC141805C57900F688DE /* TheRock3.m */,
+				A203FC111805C53800F688DE /* TheRock2.m */,
+				A203FC0E1805C4E000F688DE /* TheRock.m */,
+				C31F46DF1805B95800BE8A6B /* Main_iPhone.storyboard */,
+				C31F46E21805B95800BE8A6B /* Main_iPad.storyboard */,
 				CBDA548B1805C39F0096AC96 /* GFGoodTimes.h */,
 				CBDA548C1805C39F0096AC96 /* GFGoodTimes.m */,
 				C31F46E51805B95800BE8A6B /* GFViewController.h */,
