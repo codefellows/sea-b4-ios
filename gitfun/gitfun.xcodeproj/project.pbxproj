@@ -10,6 +10,7 @@
 		31C379901805C10900681EAF /* GFColoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C3798F1805C10900681EAF /* GFColoModel.m */; };
 		4AB6CDD71805C35400ED1DBD /* RykerLoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB6CDD51805C35400ED1DBD /* RykerLoveViewController.m */; };
 		4AB6CDD81805C35400ED1DBD /* RykerLoveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AB6CDD61805C35400ED1DBD /* RykerLoveViewController.xib */; };
+		A6F34C211805C44200A66D31 /* GFStopAddingClassesDanny.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F34C201805C44200A66D31 /* GFStopAddingClassesDanny.m */; };
 		C31F46CE1805B95800BE8A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CD1805B95800BE8A6B /* Foundation.framework */; };
 		C31F46D01805B95800BE8A6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */; };
 		C31F46D21805B95800BE8A6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46D11805B95800BE8A6B /* UIKit.framework */; };
@@ -50,6 +51,8 @@
 		4AB6CDD41805C35400ED1DBD /* RykerLoveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RykerLoveViewController.h; sourceTree = "<group>"; };
 		4AB6CDD51805C35400ED1DBD /* RykerLoveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RykerLoveViewController.m; sourceTree = "<group>"; };
 		4AB6CDD61805C35400ED1DBD /* RykerLoveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RykerLoveViewController.xib; sourceTree = "<group>"; };
+		A6F34C1F1805C44200A66D31 /* GFStopAddingClassesDanny.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFStopAddingClassesDanny.h; sourceTree = "<group>"; };
+		A6F34C201805C44200A66D31 /* GFStopAddingClassesDanny.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFStopAddingClassesDanny.m; sourceTree = "<group>"; };
 		C31F46CA1805B95800BE8A6B /* gitfun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitfun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31F46CD1805B95800BE8A6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -169,6 +172,8 @@
 				C31F47121805C30B00BE8A6B /* GFNotGarbage.m */,
 				C31F47131805C30B00BE8A6B /* GFTrollololol.h */,
 				C31F47141805C30B00BE8A6B /* GFTrollololol.m */,
+				A6F34C1F1805C44200A66D31 /* GFStopAddingClassesDanny.h */,
+				A6F34C201805C44200A66D31 /* GFStopAddingClassesDanny.m */,
 			);
 			path = gitfun;
 			sourceTree = "<group>";
@@ -307,6 +312,7 @@
 				31C379901805C10900681EAF /* GFColoModel.m in Sources */,
 				C31F47151805C30B00BE8A6B /* GFColoModel.m in Sources */,
 				C31F46DA1805B95800BE8A6B /* main.m in Sources */,
+				A6F34C211805C44200A66D31 /* GFStopAddingClassesDanny.m in Sources */,
 				D067D7BF1805C15800BC52AA /* GFWillsModel.m in Sources */,
 				C31F47171805C30B00BE8A6B /* GFMySuperAwesomeOperation.m in Sources */,
 				C31F47161805C30B00BE8A6B /* GFMegha.m in Sources */,
