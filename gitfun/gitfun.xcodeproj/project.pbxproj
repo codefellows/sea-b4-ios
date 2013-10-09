@@ -22,6 +22,7 @@
 		A203FC151805C57900F688DE /* TheRock3.m in Sources */ = {isa = PBXBuildFile; fileRef = A203FC141805C57900F688DE /* TheRock3.m */; };
 		A6F34C211805C44200A66D31 /* GFStopAddingClassesDanny.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F34C201805C44200A66D31 /* GFStopAddingClassesDanny.m */; };
 		66CDCE861805BE1F0015DBB5 /* GFAdamsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDCE851805BE1F0015DBB5 /* GFAdamsController.m */; };
+		0431C4E41805BE3200D21430 /* GFMegha.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431C4E31805BE3200D21430 /* GFMegha.m */; };
 		C31F46CE1805B95800BE8A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CD1805B95800BE8A6B /* Foundation.framework */; };
 		C31F46D01805B95800BE8A6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */; };
 		C31F46D21805B95800BE8A6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46D11805B95800BE8A6B /* UIKit.framework */; };
@@ -86,6 +87,8 @@
 		A6F34C201805C44200A66D31 /* GFStopAddingClassesDanny.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFStopAddingClassesDanny.m; sourceTree = "<group>"; };
 		66CDCE841805BE1F0015DBB5 /* GFAdamsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFAdamsController.h; sourceTree = "<group>"; };
 		66CDCE851805BE1F0015DBB5 /* GFAdamsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFAdamsController.m; sourceTree = "<group>"; };
+		0431C4E21805BE3200D21430 /* GFMegha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFMegha.h; sourceTree = "<group>"; };
+		0431C4E31805BE3200D21430 /* GFMegha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFMegha.m; sourceTree = "<group>"; };
 		C31F46CA1805B95800BE8A6B /* gitfun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitfun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31F46CD1805B95800BE8A6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -222,6 +225,8 @@
 				32CBEC321805BE7C00D2242D /* GFJorenObject.m */,
 				66CDCE841805BE1F0015DBB5 /* GFAdamsController.h */,
 				66CDCE851805BE1F0015DBB5 /* GFAdamsController.m */,
+				C31F47051805BE2D00BE8A6B /* GFNotGarbage.h */,
+				C31F47061805BE2D00BE8A6B /* GFNotGarbage.m */,
 				C31F46E81805B95800BE8A6B /* Images.xcassets */,
 				C31F46D41805B95800BE8A6B /* Supporting Files */,
 				0431C4E21805BE3200D21430 /* GFMegha.h */,
