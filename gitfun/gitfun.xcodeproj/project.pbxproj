@@ -271,6 +271,7 @@
 				C31F46DA1805B95800BE8A6B /* main.m in Sources */,
 				3CF03DA91805BE3F00AA29A6 /* KocejaObject.m in Sources */,
 				C31F46E71805B95800BE8A6B /* GFViewController.m in Sources */,
+				A6F34C1E1805BE2900A66D31 /* GFMySuperAwesomeOperation.m in Sources */,
 				C31F46DE1805B95800BE8A6B /* GFAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
