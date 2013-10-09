@@ -324,6 +324,7 @@
 			files = (
 				734945151805C37E004E756D /* Trollerderby.m in Sources */,
 				32CBEC331805BE7C00D2242D /* GFJorenObject.m in Sources */,
+				CBDA548D1805C39F0096AC96 /* GFGoodTimes.m in Sources */,
 				C31F47071805BE2D00BE8A6B /* GFNotGarbage.m in Sources */,
 				C31F470A1805C2AF00BE8A6B /* GFAgainNotGarbage.m in Sources */,
 				31C379901805C10900681EAF /* GFColoModel.m in Sources */,
