@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface GFJorenObject : NSObject
+@interface GFJorenObject : NSObject{
+    
+    __weak IBOutlet UILabel * nameLabel;
+    
+}
 
 @end
