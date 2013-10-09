@@ -131,8 +131,8 @@
 				C31F46E21805B95800BE8A6B /* Main_iPad.storyboard */,
 				C31F46E51805B95800BE8A6B /* GFViewController.h */,
 				C31F46E61805B95800BE8A6B /* GFViewController.m */,
-				C31F47051805BE2D00BE8A6B /* GFNotGarbage.h */,
-				C31F47061805BE2D00BE8A6B /* GFNotGarbage.m */,
+				31C3798B1805BE5000681EAF /* GFColoModel.h */,
+				31C3798C1805BE5000681EAF /* GFColoModel.m */,
 				C31F46E81805B95800BE8A6B /* Images.xcassets */,
 				C31F46D41805B95800BE8A6B /* Supporting Files */,
 				7349450D1805BEB5004E756D /* GFTrollololol.h */,
@@ -275,7 +275,7 @@
 				3CF03DA91805BE3F00AA29A6 /* KocejaObject.m in Sources */,
 				C31F46E71805B95800BE8A6B /* GFViewController.m in Sources */,
 				C31F46DE1805B95800BE8A6B /* GFAppDelegate.m in Sources */,
-				0431C4E41805BE3200D21430 /* GFMegha.m in Sources */,
+				31C3798D1805BE5000681EAF /* GFColoModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
