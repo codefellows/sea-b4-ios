@@ -14,6 +14,7 @@
 {
     // Override point for customization after application launch.
     NSLog(@"These are not the droid we're looking for");
+    NSLog(@"These are merely wanna be OSs");
     return YES;
 }
 							
