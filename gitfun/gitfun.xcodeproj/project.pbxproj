@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7349450F1805BEB5004E756D /* GFTrollololol.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349450E1805BEB5004E756D /* GFTrollololol.m */; };
 		3CF03DA91805BE3F00AA29A6 /* KocejaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF03DA81805BE3F00AA29A6 /* KocejaObject.m */; };
+		31C3798D1805BE5000681EAF /* GFColoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C3798C1805BE5000681EAF /* GFColoModel.m */; };
 		C31F46CE1805B95800BE8A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CD1805B95800BE8A6B /* Foundation.framework */; };
 		C31F46D01805B95800BE8A6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */; };
 		C31F46D21805B95800BE8A6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46D11805B95800BE8A6B /* UIKit.framework */; };
@@ -42,6 +43,8 @@
 		7349450E1805BEB5004E756D /* GFTrollololol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFTrollololol.m; sourceTree = "<group>"; };
 		3CF03DA71805BE3F00AA29A6 /* KocejaObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KocejaObject.h; sourceTree = "<group>"; };
 		3CF03DA81805BE3F00AA29A6 /* KocejaObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KocejaObject.m; sourceTree = "<group>"; };
+		31C3798B1805BE5000681EAF /* GFColoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFColoModel.h; sourceTree = "<group>"; };
+		31C3798C1805BE5000681EAF /* GFColoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFColoModel.m; sourceTree = "<group>"; };
 		C31F46CA1805B95800BE8A6B /* gitfun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitfun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31F46CD1805B95800BE8A6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
