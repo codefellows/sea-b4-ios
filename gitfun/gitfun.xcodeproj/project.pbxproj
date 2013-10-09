@@ -122,6 +122,8 @@
 			children = (
 				C31F46DC1805B95800BE8A6B /* GFAppDelegate.h */,
 				C31F46DD1805B95800BE8A6B /* GFAppDelegate.m */,
+				3CF03DA71805BE3F00AA29A6 /* KocejaObject.h */,
+				3CF03DA81805BE3F00AA29A6 /* KocejaObject.m */,
 				C31F46DF1805B95800BE8A6B /* Main_iPhone.storyboard */,
 				C31F46E21805B95800BE8A6B /* Main_iPad.storyboard */,
 				C31F46E51805B95800BE8A6B /* GFViewController.h */,
@@ -267,6 +269,7 @@
 				C31F47071805BE2D00BE8A6B /* GFNotGarbage.m in Sources */,
 				7349450F1805BEB5004E756D /* GFTrollololol.m in Sources */,
 				C31F46DA1805B95800BE8A6B /* main.m in Sources */,
+				3CF03DA91805BE3F00AA29A6 /* KocejaObject.m in Sources */,
 				C31F46E71805B95800BE8A6B /* GFViewController.m in Sources */,
 				C31F46DE1805B95800BE8A6B /* GFAppDelegate.m in Sources */,
 				0431C4E41805BE3200D21430 /* GFMegha.m in Sources */,
