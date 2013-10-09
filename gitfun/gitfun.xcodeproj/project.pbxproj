@@ -272,7 +272,7 @@
 				C31F46E71805B95800BE8A6B /* GFViewController.m in Sources */,
 				A6F34C1E1805BE2900A66D31 /* GFMySuperAwesomeOperation.m in Sources */,
 				C31F46DE1805B95800BE8A6B /* GFAppDelegate.m in Sources */,
-				0431C4E41805BE3200D21430 /* GFMegha.m in Sources */,
+				31C3798D1805BE5000681EAF /* GFColoModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
