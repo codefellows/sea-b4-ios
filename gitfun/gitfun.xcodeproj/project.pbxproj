@@ -59,7 +59,6 @@
 		734945141805C37E004E756D /* Trollerderby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trollerderby.m; sourceTree = "<group>"; };
 		734945161805C399004E756D /* KocejaObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KocejaObject.h; sourceTree = "<group>"; };
 		734945171805C399004E756D /* KocejaObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KocejaObject.m; sourceTree = "<group>"; };
-		734945191805C552004E756D /* GFJorenObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFJorenObject.h; sourceTree = "<group>"; };
 		7349451A1805C552004E756D /* GFJorenObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFJorenObject.m; sourceTree = "<group>"; };
 		7349451C1805C570004E756D /* GFMySuperAwesomeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFMySuperAwesomeOperation.h; sourceTree = "<group>"; };
 		7349451D1805C570004E756D /* GFMySuperAwesomeOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFMySuperAwesomeOperation.m; sourceTree = "<group>"; };
@@ -157,14 +156,22 @@
 		C31F46D31805B95800BE8A6B /* gitfun */ = {
 			isa = PBXGroup;
 			children = (
+				32CBEC311805BE7C00D2242D /* GFJorenObject.h */,
+				32CBEC321805BE7C00D2242D /* GFJorenObject.m */,
+				C31F46DF1805B95800BE8A6B /* Main_iPhone.storyboard */,
+				C31F46E21805B95800BE8A6B /* Main_iPad.storyboard */,
+				0431C4E21805BE3200D21430 /* GFMegha.h */,
+				0431C4E31805BE3200D21430 /* GFMegha.m */,
+				D067D7BD1805C15800BC52AA /* GFWillsModel.h */,
+				D067D7BE1805C15800BC52AA /* GFWillsModel.m */,
+				A6F34C1F1805C44200A66D31 /* GFStopAddingClassesDanny.h */,
+				A6F34C201805C44200A66D31 /* GFStopAddingClassesDanny.m */,
 				734945221805C5A4004E756D /* GFTrollololol.h */,
 				734945231805C5A4004E756D /* GFTrollololol.m */,
 				7349451F1805C57C004E756D /* GFColoModel.h */,
 				734945201805C57C004E756D /* GFColoModel.m */,
 				7349451C1805C570004E756D /* GFMySuperAwesomeOperation.h */,
 				7349451D1805C570004E756D /* GFMySuperAwesomeOperation.m */,
-				734945191805C552004E756D /* GFJorenObject.h */,
-				7349451A1805C552004E756D /* GFJorenObject.m */,
 				734945161805C399004E756D /* KocejaObject.h */,
 				734945171805C399004E756D /* KocejaObject.m */,
 				734945131805C37E004E756D /* Trollerderby.h */,
@@ -173,24 +180,16 @@
 				C31F46DD1805B95800BE8A6B /* GFAppDelegate.m */,
 				734945251805C5B8004E756D /* GFNotGarbage.h */,
 				734945261805C5B8004E756D /* GFNotGarbage.m */,
-				C31F46DF1805B95800BE8A6B /* Main_iPhone.storyboard */,
-				C31F46E21805B95800BE8A6B /* Main_iPad.storyboard */,
 				CBDA548B1805C39F0096AC96 /* GFGoodTimes.h */,
 				CBDA548C1805C39F0096AC96 /* GFGoodTimes.m */,
 				C31F46E51805B95800BE8A6B /* GFViewController.h */,
 				C31F46E61805B95800BE8A6B /* GFViewController.m */,
 				C31F47081805C2AF00BE8A6B /* GFAgainNotGarbage.h */,
 				C31F47091805C2AF00BE8A6B /* GFAgainNotGarbage.m */,
-				C31F46E81805B95800BE8A6B /* Images.xcassets */,
-				C31F46D41805B95800BE8A6B /* Supporting Files */,
 				32CBEC311805BE7C00D2242D /* GFJorenObject.h */,
 				32CBEC321805BE7C00D2242D /* GFJorenObject.m */,
-				0431C4E21805BE3200D21430 /* GFMegha.h */,
-				0431C4E31805BE3200D21430 /* GFMegha.m */,
-				D067D7BD1805C15800BC52AA /* GFWillsModel.h */,
-				D067D7BE1805C15800BC52AA /* GFWillsModel.m */,
-				A6F34C1F1805C44200A66D31 /* GFStopAddingClassesDanny.h */,
-				A6F34C201805C44200A66D31 /* GFStopAddingClassesDanny.m */,
+				C31F46E81805B95800BE8A6B /* Images.xcassets */,
+				C31F46D41805B95800BE8A6B /* Supporting Files */,
 			);
 			path = gitfun;
 			sourceTree = "<group>";
