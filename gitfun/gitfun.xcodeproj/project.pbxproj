@@ -46,8 +46,8 @@
 
 /* Begin PBXFileReference section */
 		31C3798F1805C10900681EAF /* GFColoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFColoModel.m; sourceTree = "<group>"; };
-		4AB6CDD91805C40100ED1DBD /* theRealRikerLove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theRealRikerLove.h; sourceTree = "<group>"; };
-		4AB6CDDA1805C40100ED1DBD /* theRealRikerLove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theRealRikerLove.m; sourceTree = "<group>"; };
+		4AB6CDD91805C40100ED1DBD /* theRealRikerLove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = theRealRikerLove.h; path = ../theRealRikerLove.h; sourceTree = "<group>"; };
+		4AB6CDDA1805C40100ED1DBD /* theRealRikerLove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = theRealRikerLove.m; path = ../theRealRikerLove.m; sourceTree = "<group>"; };
 		C31F46CA1805B95800BE8A6B /* gitfun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitfun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31F46CD1805B95800BE8A6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,8 +112,6 @@
 		C31F46C11805B95800BE8A6B = {
 			isa = PBXGroup;
 			children = (
-				4AB6CDD91805C40100ED1DBD /* theRealRikerLove.h */,
-				4AB6CDDA1805C40100ED1DBD /* theRealRikerLove.m */,
 				C31F46D31805B95800BE8A6B /* gitfun */,
 				C31F46F51805B95800BE8A6B /* gitfunTests */,
 				C31F46CC1805B95800BE8A6B /* Frameworks */,
@@ -158,6 +156,8 @@
 				D067D7BE1805C15800BC52AA /* GFWillsModel.m */,
 				C31F470B1805C30B00BE8A6B /* GFColoModel.h */,
 				C31F470C1805C30B00BE8A6B /* GFColoModel.m */,
+				4AB6CDD91805C40100ED1DBD /* theRealRikerLove.h */,
+				4AB6CDDA1805C40100ED1DBD /* theRealRikerLove.m */,
 				C31F470D1805C30B00BE8A6B /* GFMegha.h */,
 				C31F470E1805C30B00BE8A6B /* GFMegha.m */,
 				C31F470F1805C30B00BE8A6B /* GFMySuperAwesomeOperation.h */,
