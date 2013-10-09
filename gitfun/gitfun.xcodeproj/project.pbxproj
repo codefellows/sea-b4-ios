@@ -11,6 +11,7 @@
 		734945151805C37E004E756D /* Trollerderby.m in Sources */ = {isa = PBXBuildFile; fileRef = 734945141805C37E004E756D /* Trollerderby.m */; };
 		734945181805C399004E756D /* KocejaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 734945171805C399004E756D /* KocejaObject.m */; };
 		4AB6CDD71805C35400ED1DBD /* RykerLoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB6CDD51805C35400ED1DBD /* RykerLoveViewController.m */; };
+		4AB6CDDB1805C40100ED1DBD /* theRealRikerLove.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB6CDDA1805C40100ED1DBD /* theRealRikerLove.m */; };
 		C31F46CE1805B95800BE8A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CD1805B95800BE8A6B /* Foundation.framework */; };
 		C31F46D01805B95800BE8A6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */; };
 		C31F46D21805B95800BE8A6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46D11805B95800BE8A6B /* UIKit.framework */; };
