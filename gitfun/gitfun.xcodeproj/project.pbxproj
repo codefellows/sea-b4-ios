@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A6F34C1E1805BE2900A66D31 /* GFMySuperAwesomeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F34C1D1805BE2900A66D31 /* GFMySuperAwesomeOperation.m */; };
+		31C379901805C10900681EAF /* GFColoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C3798F1805C10900681EAF /* GFColoModel.m */; };
+		3CF03DA91805BE3F00AA29A6 /* KocejaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF03DA81805BE3F00AA29A6 /* KocejaObject.m */; };
 		C31F46CE1805B95800BE8A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CD1805B95800BE8A6B /* Foundation.framework */; };
 		C31F46D01805B95800BE8A6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */; };
 		C31F46D21805B95800BE8A6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46D11805B95800BE8A6B /* UIKit.framework */; };
@@ -38,8 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A6F34C1C1805BE2900A66D31 /* GFMySuperAwesomeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFMySuperAwesomeOperation.h; sourceTree = "<group>"; };
-		A6F34C1D1805BE2900A66D31 /* GFMySuperAwesomeOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFMySuperAwesomeOperation.m; sourceTree = "<group>"; };
+		31C3798E1805C10900681EAF /* GFColoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFColoModel.h; sourceTree = "<group>"; };
+		31C3798F1805C10900681EAF /* GFColoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFColoModel.m; sourceTree = "<group>"; };
+		3CF03DA71805BE3F00AA29A6 /* KocejaObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KocejaObject.h; sourceTree = "<group>"; };
+		3CF03DA81805BE3F00AA29A6 /* KocejaObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KocejaObject.m; sourceTree = "<group>"; };
 		C31F46CA1805B95800BE8A6B /* gitfun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitfun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31F46CD1805B95800BE8A6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -128,8 +131,6 @@
 				C31F46E21805B95800BE8A6B /* Main_iPad.storyboard */,
 				C31F46E51805B95800BE8A6B /* GFViewController.h */,
 				C31F46E61805B95800BE8A6B /* GFViewController.m */,
-				A6F34C1C1805BE2900A66D31 /* GFMySuperAwesomeOperation.h */,
-				A6F34C1D1805BE2900A66D31 /* GFMySuperAwesomeOperation.m */,
 				C31F46E81805B95800BE8A6B /* Images.xcassets */,
 				C31F46D41805B95800BE8A6B /* Supporting Files */,
 				D067D7BD1805C15800BC52AA /* GFWillsModel.h */,
@@ -267,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C31F47071805BE2D00BE8A6B /* GFNotGarbage.m in Sources */,
+				31C379901805C10900681EAF /* GFColoModel.m in Sources */,
 				C31F46DA1805B95800BE8A6B /* main.m in Sources */,
 				D067D7BF1805C15800BC52AA /* GFWillsModel.m in Sources */,
 				C31F46E71805B95800BE8A6B /* GFViewController.m in Sources */,
