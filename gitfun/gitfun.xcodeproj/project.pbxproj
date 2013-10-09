@@ -23,6 +23,8 @@
 		A6F34C211805C44200A66D31 /* GFStopAddingClassesDanny.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F34C201805C44200A66D31 /* GFStopAddingClassesDanny.m */; };
 		66CDCE861805BE1F0015DBB5 /* GFAdamsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDCE851805BE1F0015DBB5 /* GFAdamsController.m */; };
 		0431C4E41805BE3200D21430 /* GFMegha.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431C4E31805BE3200D21430 /* GFMegha.m */; };
+		31C379901805C10900681EAF /* GFColoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C3798F1805C10900681EAF /* GFColoModel.m */; };
+		3CF03DA91805BE3F00AA29A6 /* KocejaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF03DA81805BE3F00AA29A6 /* KocejaObject.m */; };
 		C31F46CE1805B95800BE8A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CD1805B95800BE8A6B /* Foundation.framework */; };
 		C31F46D01805B95800BE8A6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */; };
 		C31F46D21805B95800BE8A6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46D11805B95800BE8A6B /* UIKit.framework */; };
@@ -89,6 +91,10 @@
 		66CDCE851805BE1F0015DBB5 /* GFAdamsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFAdamsController.m; sourceTree = "<group>"; };
 		0431C4E21805BE3200D21430 /* GFMegha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFMegha.h; sourceTree = "<group>"; };
 		0431C4E31805BE3200D21430 /* GFMegha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFMegha.m; sourceTree = "<group>"; };
+		31C3798E1805C10900681EAF /* GFColoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFColoModel.h; sourceTree = "<group>"; };
+		31C3798F1805C10900681EAF /* GFColoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFColoModel.m; sourceTree = "<group>"; };
+		3CF03DA71805BE3F00AA29A6 /* KocejaObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KocejaObject.h; sourceTree = "<group>"; };
+		3CF03DA81805BE3F00AA29A6 /* KocejaObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KocejaObject.m; sourceTree = "<group>"; };
 		C31F46CA1805B95800BE8A6B /* gitfun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitfun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31F46CD1805B95800BE8A6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -398,6 +404,7 @@
 				7349451B1805C552004E756D /* GFJorenObject.m in Sources */,
 				734945181805C399004E756D /* KocejaObject.m in Sources */,
 				66CDCE861805BE1F0015DBB5 /* GFAdamsController.m in Sources */,
+				D067D7BF1805C15800BC52AA /* GFWillsModel.m in Sources */,
 				C31F46E71805B95800BE8A6B /* GFViewController.m in Sources */,
 				C31F46DE1805B95800BE8A6B /* GFAppDelegate.m in Sources */,
 				A203FC121805C53800F688DE /* TheRock2.m in Sources */,
