@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		31C379901805C10900681EAF /* GFColoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C3798F1805C10900681EAF /* GFColoModel.m */; };
+		32CBEC331805BE7C00D2242D /* GFJorenObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CBEC321805BE7C00D2242D /* GFJorenObject.m */; };
+		4AB6CDDB1805C40100ED1DBD /* (null) in Sources */ = {isa = PBXBuildFile; };
+		734945151805C37E004E756D /* Trollerderby.m in Sources */ = {isa = PBXBuildFile; fileRef = 734945141805C37E004E756D /* Trollerderby.m */; };
+		734945181805C399004E756D /* KocejaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 734945171805C399004E756D /* KocejaObject.m */; };
+		7349451B1805C552004E756D /* GFJorenObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349451A1805C552004E756D /* GFJorenObject.m */; };
+		7349451E1805C570004E756D /* GFMySuperAwesomeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349451D1805C570004E756D /* GFMySuperAwesomeOperation.m */; };
+		734945211805C57C004E756D /* GFColoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 734945201805C57C004E756D /* GFColoModel.m */; };
+		734945241805C5A4004E756D /* GFTrollololol.m in Sources */ = {isa = PBXBuildFile; fileRef = 734945231805C5A4004E756D /* GFTrollololol.m */; };
+		734945271805C5B8004E756D /* GFNotGarbage.m in Sources */ = {isa = PBXBuildFile; fileRef = 734945261805C5B8004E756D /* GFNotGarbage.m */; };
 		A203FC0F1805C4E000F688DE /* TheRock.m in Sources */ = {isa = PBXBuildFile; fileRef = A203FC0E1805C4E000F688DE /* TheRock.m */; };
 		A203FC121805C53800F688DE /* TheRock2.m in Sources */ = {isa = PBXBuildFile; fileRef = A203FC111805C53800F688DE /* TheRock2.m */; };
 		A203FC151805C57900F688DE /* TheRock3.m in Sources */ = {isa = PBXBuildFile; fileRef = A203FC141805C57900F688DE /* TheRock3.m */; };
@@ -51,6 +60,21 @@
 		0431C4E21805BE3200D21430 /* GFMegha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFMegha.h; sourceTree = "<group>"; };
 		0431C4E31805BE3200D21430 /* GFMegha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFMegha.m; sourceTree = "<group>"; };
 		31C3798F1805C10900681EAF /* GFColoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFColoModel.m; sourceTree = "<group>"; };
+		32CBEC311805BE7C00D2242D /* GFJorenObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFJorenObject.h; sourceTree = "<group>"; };
+		32CBEC321805BE7C00D2242D /* GFJorenObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFJorenObject.m; sourceTree = "<group>"; };
+		734945131805C37E004E756D /* Trollerderby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trollerderby.h; sourceTree = "<group>"; };
+		734945141805C37E004E756D /* Trollerderby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trollerderby.m; sourceTree = "<group>"; };
+		734945161805C399004E756D /* KocejaObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KocejaObject.h; sourceTree = "<group>"; };
+		734945171805C399004E756D /* KocejaObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KocejaObject.m; sourceTree = "<group>"; };
+		7349451A1805C552004E756D /* GFJorenObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFJorenObject.m; sourceTree = "<group>"; };
+		7349451C1805C570004E756D /* GFMySuperAwesomeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFMySuperAwesomeOperation.h; sourceTree = "<group>"; };
+		7349451D1805C570004E756D /* GFMySuperAwesomeOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFMySuperAwesomeOperation.m; sourceTree = "<group>"; };
+		7349451F1805C57C004E756D /* GFColoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFColoModel.h; sourceTree = "<group>"; };
+		734945201805C57C004E756D /* GFColoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFColoModel.m; sourceTree = "<group>"; };
+		734945221805C5A4004E756D /* GFTrollololol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFTrollololol.h; sourceTree = "<group>"; };
+		734945231805C5A4004E756D /* GFTrollololol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFTrollololol.m; sourceTree = "<group>"; };
+		734945251805C5B8004E756D /* GFNotGarbage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFNotGarbage.h; sourceTree = "<group>"; };
+		734945261805C5B8004E756D /* GFNotGarbage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFNotGarbage.m; sourceTree = "<group>"; };
 		A203FC0D1805C4E000F688DE /* TheRock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TheRock.h; path = ../TheRock.h; sourceTree = "<group>"; };
 		A203FC0E1805C4E000F688DE /* TheRock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TheRock.m; path = ../TheRock.m; sourceTree = "<group>"; };
 		A203FC101805C53800F688DE /* TheRock2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TheRock2.h; path = ../TheRock2.h; sourceTree = "<group>"; };
@@ -153,8 +177,30 @@
 		C31F46D31805B95800BE8A6B /* gitfun */ = {
 			isa = PBXGroup;
 			children = (
+				32CBEC311805BE7C00D2242D /* GFJorenObject.h */,
+				32CBEC321805BE7C00D2242D /* GFJorenObject.m */,
+				C31F46DF1805B95800BE8A6B /* Main_iPhone.storyboard */,
+				C31F46E21805B95800BE8A6B /* Main_iPad.storyboard */,
+				0431C4E21805BE3200D21430 /* GFMegha.h */,
+				0431C4E31805BE3200D21430 /* GFMegha.m */,
+				D067D7BD1805C15800BC52AA /* GFWillsModel.h */,
+				D067D7BE1805C15800BC52AA /* GFWillsModel.m */,
+				A6F34C1F1805C44200A66D31 /* GFStopAddingClassesDanny.h */,
+				A6F34C201805C44200A66D31 /* GFStopAddingClassesDanny.m */,
+				734945221805C5A4004E756D /* GFTrollololol.h */,
+				734945231805C5A4004E756D /* GFTrollololol.m */,
+				7349451F1805C57C004E756D /* GFColoModel.h */,
+				734945201805C57C004E756D /* GFColoModel.m */,
+				7349451C1805C570004E756D /* GFMySuperAwesomeOperation.h */,
+				7349451D1805C570004E756D /* GFMySuperAwesomeOperation.m */,
+				734945161805C399004E756D /* KocejaObject.h */,
+				734945171805C399004E756D /* KocejaObject.m */,
+				734945131805C37E004E756D /* Trollerderby.h */,
+				734945141805C37E004E756D /* Trollerderby.m */,
 				C31F46DC1805B95800BE8A6B /* GFAppDelegate.h */,
 				C31F46DD1805B95800BE8A6B /* GFAppDelegate.m */,
+				734945251805C5B8004E756D /* GFNotGarbage.h */,
+				734945261805C5B8004E756D /* GFNotGarbage.m */,
 				A203FC0D1805C4E000F688DE /* TheRock.h */,
 				A203FC101805C53800F688DE /* TheRock2.h */,
 				A203FC131805C57900F688DE /* TheRock3.h */,
@@ -169,6 +215,8 @@
 				C31F46E61805B95800BE8A6B /* GFViewController.m */,
 				C31F47081805C2AF00BE8A6B /* GFAgainNotGarbage.h */,
 				C31F47091805C2AF00BE8A6B /* GFAgainNotGarbage.m */,
+				32CBEC311805BE7C00D2242D /* GFJorenObject.h */,
+				32CBEC321805BE7C00D2242D /* GFJorenObject.m */,
 				C31F46E81805B95800BE8A6B /* Images.xcassets */,
 				C31F46D41805B95800BE8A6B /* Supporting Files */,
 				0431C4E21805BE3200D21430 /* GFMegha.h */,
@@ -317,12 +365,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				734945271805C5B8004E756D /* GFNotGarbage.m in Sources */,
+				734945151805C37E004E756D /* Trollerderby.m in Sources */,
+				32CBEC331805BE7C00D2242D /* GFJorenObject.m in Sources */,
 				C31F47231805C52D00BE8A6B /* GFGoodTimes.m in Sources */,
 				CBDA548D1805C39F0096AC96 /* GFGoodTimes.m in Sources */,
+				734945211805C57C004E756D /* GFColoModel.m in Sources */,
 				C31F47251805C52D00BE8A6B /* GFTrollololol.m in Sources */,
 				C31F47071805BE2D00BE8A6B /* GFNotGarbage.m in Sources */,
+				734945241805C5A4004E756D /* GFTrollololol.m in Sources */,
 				C31F470A1805C2AF00BE8A6B /* GFAgainNotGarbage.m in Sources */,
 				31C379901805C10900681EAF /* GFColoModel.m in Sources */,
+				7349451E1805C570004E756D /* GFMySuperAwesomeOperation.m in Sources */,
 				C31F46DA1805B95800BE8A6B /* main.m in Sources */,
 				C31F47241805C52D00BE8A6B /* GFMySuperAwesomeOperation.m in Sources */,
 				A203FC151805C57900F688DE /* TheRock3.m in Sources */,
@@ -330,6 +384,9 @@
 				A6F34C211805C44200A66D31 /* GFStopAddingClassesDanny.m in Sources */,
 				A203FC0F1805C4E000F688DE /* TheRock.m in Sources */,
 				D067D7BF1805C15800BC52AA /* GFWillsModel.m in Sources */,
+				4AB6CDDB1805C40100ED1DBD /* (null) in Sources */,
+				7349451B1805C552004E756D /* GFJorenObject.m in Sources */,
+				734945181805C399004E756D /* KocejaObject.m in Sources */,
 				C31F46E71805B95800BE8A6B /* GFViewController.m in Sources */,
 				C31F46DE1805B95800BE8A6B /* GFAppDelegate.m in Sources */,
 				A203FC121805C53800F688DE /* TheRock2.m in Sources */,
