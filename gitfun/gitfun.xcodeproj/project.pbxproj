@@ -202,8 +202,6 @@
 				32CBEC321805BE7C00D2242D /* GFJorenObject.m */,
 				C31F46E81805B95800BE8A6B /* Images.xcassets */,
 				C31F46D41805B95800BE8A6B /* Supporting Files */,
-				32CBEC311805BE7C00D2242D /* GFJorenObject.h */,
-				32CBEC321805BE7C00D2242D /* GFJorenObject.m */,
 				0431C4E21805BE3200D21430 /* GFMegha.h */,
 				0431C4E31805BE3200D21430 /* GFMegha.m */,
 				D067D7BD1805C15800BC52AA /* GFWillsModel.h */,
@@ -364,14 +362,17 @@
 				7349451E1805C570004E756D /* GFMySuperAwesomeOperation.m in Sources */,
 				C31F46DA1805B95800BE8A6B /* main.m in Sources */,
 				C31F47241805C52D00BE8A6B /* GFMySuperAwesomeOperation.m in Sources */,
+				A203FC151805C57900F688DE /* TheRock3.m in Sources */,
 				C31F47221805C52D00BE8A6B /* GFColoModel.m in Sources */,
 				A6F34C211805C44200A66D31 /* GFStopAddingClassesDanny.m in Sources */,
+				A203FC0F1805C4E000F688DE /* TheRock.m in Sources */,
 				D067D7BF1805C15800BC52AA /* GFWillsModel.m in Sources */,
 				4AB6CDDB1805C40100ED1DBD /* (null) in Sources */,
 				7349451B1805C552004E756D /* GFJorenObject.m in Sources */,
 				734945181805C399004E756D /* KocejaObject.m in Sources */,
 				C31F46E71805B95800BE8A6B /* GFViewController.m in Sources */,
 				C31F46DE1805B95800BE8A6B /* GFAppDelegate.m in Sources */,
+				A203FC121805C53800F688DE /* TheRock2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
