@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		31C379901805C10900681EAF /* GFColoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C3798F1805C10900681EAF /* GFColoModel.m */; };
-		4AB6CDD71805C35400ED1DBD /* RykerLoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB6CDD51805C35400ED1DBD /* RykerLoveViewController.m */; };
-		4AB6CDD81805C35400ED1DBD /* RykerLoveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AB6CDD61805C35400ED1DBD /* RykerLoveViewController.xib */; };
+		A203FC0F1805C4E000F688DE /* TheRock.m in Sources */ = {isa = PBXBuildFile; fileRef = A203FC0E1805C4E000F688DE /* TheRock.m */; };
 		A6F34C211805C44200A66D31 /* GFStopAddingClassesDanny.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F34C201805C44200A66D31 /* GFStopAddingClassesDanny.m */; };
 		C31F46CE1805B95800BE8A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CD1805B95800BE8A6B /* Foundation.framework */; };
 		C31F46D01805B95800BE8A6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */; };
@@ -48,9 +47,8 @@
 
 /* Begin PBXFileReference section */
 		31C3798F1805C10900681EAF /* GFColoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFColoModel.m; sourceTree = "<group>"; };
-		4AB6CDD41805C35400ED1DBD /* RykerLoveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RykerLoveViewController.h; sourceTree = "<group>"; };
-		4AB6CDD51805C35400ED1DBD /* RykerLoveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RykerLoveViewController.m; sourceTree = "<group>"; };
-		4AB6CDD61805C35400ED1DBD /* RykerLoveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RykerLoveViewController.xib; sourceTree = "<group>"; };
+		A203FC0D1805C4E000F688DE /* TheRock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TheRock.h; path = ../TheRock.h; sourceTree = "<group>"; };
+		A203FC0E1805C4E000F688DE /* TheRock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TheRock.m; path = ../TheRock.m; sourceTree = "<group>"; };
 		A6F34C1F1805C44200A66D31 /* GFStopAddingClassesDanny.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFStopAddingClassesDanny.h; sourceTree = "<group>"; };
 		A6F34C201805C44200A66D31 /* GFStopAddingClassesDanny.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFStopAddingClassesDanny.m; sourceTree = "<group>"; };
 		C31F46CA1805B95800BE8A6B /* gitfun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitfun.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +147,8 @@
 			children = (
 				C31F46DC1805B95800BE8A6B /* GFAppDelegate.h */,
 				C31F46DD1805B95800BE8A6B /* GFAppDelegate.m */,
+				A203FC0D1805C4E000F688DE /* TheRock.h */,
+				A203FC0E1805C4E000F688DE /* TheRock.m */,
 				C31F46DF1805B95800BE8A6B /* Main_iPhone.storyboard */,
 				C31F46E21805B95800BE8A6B /* Main_iPad.storyboard */,
 				C31F46E51805B95800BE8A6B /* GFViewController.h */,
@@ -161,8 +161,6 @@
 				D067D7BE1805C15800BC52AA /* GFWillsModel.m */,
 				C31F470B1805C30B00BE8A6B /* GFColoModel.h */,
 				C31F470C1805C30B00BE8A6B /* GFColoModel.m */,
-				4AB6CDD91805C40100ED1DBD /* theRealRikerLove.h */,
-				4AB6CDDA1805C40100ED1DBD /* theRealRikerLove.m */,
 				C31F470D1805C30B00BE8A6B /* GFMegha.h */,
 				C31F470E1805C30B00BE8A6B /* GFMegha.m */,
 				C31F470F1805C30B00BE8A6B /* GFMySuperAwesomeOperation.h */,
@@ -311,8 +309,8 @@
 				C31F47151805C30B00BE8A6B /* GFColoModel.m in Sources */,
 				C31F46DA1805B95800BE8A6B /* main.m in Sources */,
 				A6F34C211805C44200A66D31 /* GFStopAddingClassesDanny.m in Sources */,
+				A203FC0F1805C4E000F688DE /* TheRock.m in Sources */,
 				D067D7BF1805C15800BC52AA /* GFWillsModel.m in Sources */,
-				4AB6CDDB1805C40100ED1DBD /* theRealRikerLove.m in Sources */,
 				C31F47171805C30B00BE8A6B /* GFMySuperAwesomeOperation.m in Sources */,
 				C31F47161805C30B00BE8A6B /* GFMegha.m in Sources */,
 				C31F47181805C30B00BE8A6B /* GFNotGarbage.m in Sources */,
