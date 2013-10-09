@@ -21,6 +21,7 @@
 		A203FC121805C53800F688DE /* TheRock2.m in Sources */ = {isa = PBXBuildFile; fileRef = A203FC111805C53800F688DE /* TheRock2.m */; };
 		A203FC151805C57900F688DE /* TheRock3.m in Sources */ = {isa = PBXBuildFile; fileRef = A203FC141805C57900F688DE /* TheRock3.m */; };
 		A6F34C211805C44200A66D31 /* GFStopAddingClassesDanny.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F34C201805C44200A66D31 /* GFStopAddingClassesDanny.m */; };
+		66CDCE861805BE1F0015DBB5 /* GFAdamsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDCE851805BE1F0015DBB5 /* GFAdamsController.m */; };
 		C31F46CE1805B95800BE8A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CD1805B95800BE8A6B /* Foundation.framework */; };
 		C31F46D01805B95800BE8A6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */; };
 		C31F46D21805B95800BE8A6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46D11805B95800BE8A6B /* UIKit.framework */; };
@@ -83,6 +84,8 @@
 		A203FC141805C57900F688DE /* TheRock3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheRock3.m; sourceTree = "<group>"; };
 		A6F34C1F1805C44200A66D31 /* GFStopAddingClassesDanny.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFStopAddingClassesDanny.h; sourceTree = "<group>"; };
 		A6F34C201805C44200A66D31 /* GFStopAddingClassesDanny.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFStopAddingClassesDanny.m; sourceTree = "<group>"; };
+		66CDCE841805BE1F0015DBB5 /* GFAdamsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFAdamsController.h; sourceTree = "<group>"; };
+		66CDCE851805BE1F0015DBB5 /* GFAdamsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFAdamsController.m; sourceTree = "<group>"; };
 		C31F46CA1805B95800BE8A6B /* gitfun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitfun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31F46CD1805B95800BE8A6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -217,6 +220,8 @@
 				C31F47091805C2AF00BE8A6B /* GFAgainNotGarbage.m */,
 				32CBEC311805BE7C00D2242D /* GFJorenObject.h */,
 				32CBEC321805BE7C00D2242D /* GFJorenObject.m */,
+				66CDCE841805BE1F0015DBB5 /* GFAdamsController.h */,
+				66CDCE851805BE1F0015DBB5 /* GFAdamsController.m */,
 				C31F46E81805B95800BE8A6B /* Images.xcassets */,
 				C31F46D41805B95800BE8A6B /* Supporting Files */,
 				0431C4E21805BE3200D21430 /* GFMegha.h */,
@@ -387,6 +392,7 @@
 				4AB6CDDB1805C40100ED1DBD /* (null) in Sources */,
 				7349451B1805C552004E756D /* GFJorenObject.m in Sources */,
 				734945181805C399004E756D /* KocejaObject.m in Sources */,
+				66CDCE861805BE1F0015DBB5 /* GFAdamsController.m in Sources */,
 				C31F46E71805B95800BE8A6B /* GFViewController.m in Sources */,
 				C31F46DE1805B95800BE8A6B /* GFAppDelegate.m in Sources */,
 				A203FC121805C53800F688DE /* TheRock2.m in Sources */,
