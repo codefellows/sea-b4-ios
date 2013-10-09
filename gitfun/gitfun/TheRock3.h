@@ -10,4 +10,7 @@
 
 @interface TheRock3 : NSObject
 
+@property (nonatomic,strong) NSString *DannySucks;
+
+
 @end
