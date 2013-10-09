@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7349450F1805BEB5004E756D /* GFTrollololol.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349450E1805BEB5004E756D /* GFTrollololol.m */; };
 		C31F46CE1805B95800BE8A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CD1805B95800BE8A6B /* Foundation.framework */; };
 		C31F46D01805B95800BE8A6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */; };
 		C31F46D21805B95800BE8A6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46D11805B95800BE8A6B /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7349450D1805BEB5004E756D /* GFTrollololol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFTrollololol.h; sourceTree = "<group>"; };
+		7349450E1805BEB5004E756D /* GFTrollololol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFTrollololol.m; sourceTree = "<group>"; };
 		C31F46CA1805B95800BE8A6B /* gitfun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitfun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31F46CD1805B95800BE8A6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -127,6 +130,8 @@
 				C31F47061805BE2D00BE8A6B /* GFNotGarbage.m */,
 				C31F46E81805B95800BE8A6B /* Images.xcassets */,
 				C31F46D41805B95800BE8A6B /* Supporting Files */,
+				7349450D1805BEB5004E756D /* GFTrollololol.h */,
+				7349450E1805BEB5004E756D /* GFTrollololol.m */,
 			);
 			path = gitfun;
 			sourceTree = "<group>";
@@ -260,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C31F47071805BE2D00BE8A6B /* GFNotGarbage.m in Sources */,
+				7349450F1805BEB5004E756D /* GFTrollololol.m in Sources */,
 				C31F46DA1805B95800BE8A6B /* main.m in Sources */,
 				C31F46E71805B95800BE8A6B /* GFViewController.m in Sources */,
 				C31F46DE1805B95800BE8A6B /* GFAppDelegate.m in Sources */,
