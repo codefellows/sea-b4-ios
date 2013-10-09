@@ -117,9 +117,6 @@
 		C31F46C11805B95800BE8A6B = {
 			isa = PBXGroup;
 			children = (
-				4AB6CDD41805C35400ED1DBD /* RykerLoveViewController.h */,
-				4AB6CDD51805C35400ED1DBD /* RykerLoveViewController.m */,
-				4AB6CDD61805C35400ED1DBD /* RykerLoveViewController.xib */,
 				C31F46D31805B95800BE8A6B /* gitfun */,
 				C31F46F51805B95800BE8A6B /* gitfunTests */,
 				C31F46CC1805B95800BE8A6B /* Frameworks */,
@@ -164,6 +161,8 @@
 				D067D7BE1805C15800BC52AA /* GFWillsModel.m */,
 				C31F470B1805C30B00BE8A6B /* GFColoModel.h */,
 				C31F470C1805C30B00BE8A6B /* GFColoModel.m */,
+				4AB6CDD91805C40100ED1DBD /* theRealRikerLove.h */,
+				4AB6CDDA1805C40100ED1DBD /* theRealRikerLove.m */,
 				C31F470D1805C30B00BE8A6B /* GFMegha.h */,
 				C31F470E1805C30B00BE8A6B /* GFMegha.m */,
 				C31F470F1805C30B00BE8A6B /* GFMySuperAwesomeOperation.h */,
@@ -288,7 +287,6 @@
 				C31F46E91805B95800BE8A6B /* Images.xcassets in Resources */,
 				C31F46E11805B95800BE8A6B /* Main_iPhone.storyboard in Resources */,
 				C31F46D81805B95800BE8A6B /* InfoPlist.strings in Resources */,
-				4AB6CDD81805C35400ED1DBD /* RykerLoveViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,9 +312,9 @@
 				C31F46DA1805B95800BE8A6B /* main.m in Sources */,
 				A6F34C211805C44200A66D31 /* GFStopAddingClassesDanny.m in Sources */,
 				D067D7BF1805C15800BC52AA /* GFWillsModel.m in Sources */,
+				4AB6CDDB1805C40100ED1DBD /* theRealRikerLove.m in Sources */,
 				C31F47171805C30B00BE8A6B /* GFMySuperAwesomeOperation.m in Sources */,
 				C31F47161805C30B00BE8A6B /* GFMegha.m in Sources */,
-				4AB6CDD71805C35400ED1DBD /* RykerLoveViewController.m in Sources */,
 				C31F47181805C30B00BE8A6B /* GFNotGarbage.m in Sources */,
 				C31F47191805C30B00BE8A6B /* GFTrollololol.m in Sources */,
 				C31F46E71805B95800BE8A6B /* GFViewController.m in Sources */,
