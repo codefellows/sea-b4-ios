@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		32CBEC331805BE7C00D2242D /* GFJorenObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CBEC321805BE7C00D2242D /* GFJorenObject.m */; };
+		0431C4E41805BE3200D21430 /* GFMegha.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431C4E31805BE3200D21430 /* GFMegha.m */; };
 		C31F46CE1805B95800BE8A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CD1805B95800BE8A6B /* Foundation.framework */; };
 		C31F46D01805B95800BE8A6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */; };
 		C31F46D21805B95800BE8A6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46D11805B95800BE8A6B /* UIKit.framework */; };
@@ -23,6 +24,7 @@
 		C31F46F21805B95800BE8A6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31F46D11805B95800BE8A6B /* UIKit.framework */; };
 		C31F46FA1805B95900BE8A6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C31F46F81805B95900BE8A6B /* InfoPlist.strings */; };
 		C31F46FC1805B95900BE8A6B /* gitfunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F46FB1805B95900BE8A6B /* gitfunTests.m */; };
+		C31F47071805BE2D00BE8A6B /* GFNotGarbage.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F47061805BE2D00BE8A6B /* GFNotGarbage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 /* Begin PBXFileReference section */
 		32CBEC311805BE7C00D2242D /* GFJorenObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFJorenObject.h; sourceTree = "<group>"; };
 		32CBEC321805BE7C00D2242D /* GFJorenObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFJorenObject.m; sourceTree = "<group>"; };
+		0431C4E21805BE3200D21430 /* GFMegha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFMegha.h; sourceTree = "<group>"; };
+		0431C4E31805BE3200D21430 /* GFMegha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFMegha.m; sourceTree = "<group>"; };
 		C31F46CA1805B95800BE8A6B /* gitfun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitfun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31F46CD1805B95800BE8A6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C31F46CF1805B95800BE8A6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,6 +62,8 @@
 		C31F46F71805B95900BE8A6B /* gitfunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitfunTests-Info.plist"; sourceTree = "<group>"; };
 		C31F46F91805B95900BE8A6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C31F46FB1805B95900BE8A6B /* gitfunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitfunTests.m; sourceTree = "<group>"; };
+		C31F47051805BE2D00BE8A6B /* GFNotGarbage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFNotGarbage.h; sourceTree = "<group>"; };
+		C31F47061805BE2D00BE8A6B /* GFNotGarbage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFNotGarbage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,10 +129,14 @@
 				C31F46E21805B95800BE8A6B /* Main_iPad.storyboard */,
 				C31F46E51805B95800BE8A6B /* GFViewController.h */,
 				C31F46E61805B95800BE8A6B /* GFViewController.m */,
+				C31F47051805BE2D00BE8A6B /* GFNotGarbage.h */,
+				C31F47061805BE2D00BE8A6B /* GFNotGarbage.m */,
 				C31F46E81805B95800BE8A6B /* Images.xcassets */,
 				C31F46D41805B95800BE8A6B /* Supporting Files */,
 				32CBEC311805BE7C00D2242D /* GFJorenObject.h */,
 				32CBEC321805BE7C00D2242D /* GFJorenObject.m */,
+				0431C4E21805BE3200D21430 /* GFMegha.h */,
+				0431C4E31805BE3200D21430 /* GFMegha.m */,
 			);
 			path = gitfun;
 			sourceTree = "<group>";
@@ -260,9 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				32CBEC331805BE7C00D2242D /* GFJorenObject.m in Sources */,
+				C31F47071805BE2D00BE8A6B /* GFNotGarbage.m in Sources */,
 				C31F46DA1805B95800BE8A6B /* main.m in Sources */,
 				C31F46E71805B95800BE8A6B /* GFViewController.m in Sources */,
 				C31F46DE1805B95800BE8A6B /* GFAppDelegate.m in Sources */,
+				0431C4E41805BE3200D21430 /* GFMegha.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

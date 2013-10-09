@@ -10,4 +10,6 @@
 
 @interface GFViewController : UIViewController
 
+@property (nonatomic, copy) NSString *dannysChange;
+
 @end

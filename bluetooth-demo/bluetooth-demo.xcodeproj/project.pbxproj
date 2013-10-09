@@ -409,6 +409,7 @@
 				GCC_PREFIX_HEADER = "bluetooth-demo/bluetooth-demo-Prefix.pch";
 				INFOPLIST_FILE = "bluetooth-demo/bluetooth-demo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -422,6 +423,7 @@
 				GCC_PREFIX_HEADER = "bluetooth-demo/bluetooth-demo-Prefix.pch";
 				INFOPLIST_FILE = "bluetooth-demo/bluetooth-demo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -487,6 +489,7 @@
 				C3FAA22017F49DC900C4AAF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3FAA22117F49DC900C4AAF7 /* Build configuration list for PBXNativeTarget "bluetooth-demoTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +498,7 @@
 				C3FAA22317F49DC900C4AAF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
