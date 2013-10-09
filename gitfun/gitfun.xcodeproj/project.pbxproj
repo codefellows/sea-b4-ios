@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32CBEC331805BE7C00D2242D /* GFJorenObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CBEC321805BE7C00D2242D /* GFJorenObject.m */; };
+		0431C4E41805BE3200D21430 /* GFMegha.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431C4E31805BE3200D21430 /* GFMegha.m */; };
+		A6F34C1E1805BE2900A66D31 /* GFMySuperAwesomeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F34C1D1805BE2900A66D31 /* GFMySuperAwesomeOperation.m */; };
 		31C379901805C10900681EAF /* GFColoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C3798F1805C10900681EAF /* GFColoModel.m */; };
 		734945151805C37E004E756D /* Trollerderby.m in Sources */ = {isa = PBXBuildFile; fileRef = 734945141805C37E004E756D /* Trollerderby.m */; };
 		734945181805C399004E756D /* KocejaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 734945171805C399004E756D /* KocejaObject.m */; };
@@ -48,6 +51,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32CBEC311805BE7C00D2242D /* GFJorenObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFJorenObject.h; sourceTree = "<group>"; };
+		32CBEC321805BE7C00D2242D /* GFJorenObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFJorenObject.m; sourceTree = "<group>"; };
+		0431C4E21805BE3200D21430 /* GFMegha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFMegha.h; sourceTree = "<group>"; };
+		0431C4E31805BE3200D21430 /* GFMegha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFMegha.m; sourceTree = "<group>"; };
+		A6F34C1C1805BE2900A66D31 /* GFMySuperAwesomeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFMySuperAwesomeOperation.h; sourceTree = "<group>"; };
+		A6F34C1D1805BE2900A66D31 /* GFMySuperAwesomeOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFMySuperAwesomeOperation.m; sourceTree = "<group>"; };
+		31C3798E1805C10900681EAF /* GFColoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFColoModel.h; sourceTree = "<group>"; };
 		31C3798F1805C10900681EAF /* GFColoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFColoModel.m; sourceTree = "<group>"; };
 		734945131805C37E004E756D /* Trollerderby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trollerderby.h; sourceTree = "<group>"; };
 		734945141805C37E004E756D /* Trollerderby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trollerderby.m; sourceTree = "<group>"; };
@@ -163,6 +173,10 @@
 				C31F47091805C2AF00BE8A6B /* GFAgainNotGarbage.m */,
 				C31F46E81805B95800BE8A6B /* Images.xcassets */,
 				C31F46D41805B95800BE8A6B /* Supporting Files */,
+				32CBEC311805BE7C00D2242D /* GFJorenObject.h */,
+				32CBEC321805BE7C00D2242D /* GFJorenObject.m */,
+				0431C4E21805BE3200D21430 /* GFMegha.h */,
+				0431C4E31805BE3200D21430 /* GFMegha.m */,
 				D067D7BD1805C15800BC52AA /* GFWillsModel.h */,
 				D067D7BE1805C15800BC52AA /* GFWillsModel.m */,
 				C31F470B1805C30B00BE8A6B /* GFColoModel.h */,
@@ -177,6 +191,8 @@
 				C31F47121805C30B00BE8A6B /* GFNotGarbage.m */,
 				C31F47131805C30B00BE8A6B /* GFTrollololol.h */,
 				C31F47141805C30B00BE8A6B /* GFTrollololol.m */,
+				A6F34C1F1805C44200A66D31 /* GFStopAddingClassesDanny.h */,
+				A6F34C201805C44200A66D31 /* GFStopAddingClassesDanny.m */,
 			);
 			path = gitfun;
 			sourceTree = "<group>";
@@ -315,6 +331,7 @@
 				31C379901805C10900681EAF /* GFColoModel.m in Sources */,
 				C31F47151805C30B00BE8A6B /* GFColoModel.m in Sources */,
 				C31F46DA1805B95800BE8A6B /* main.m in Sources */,
+				A6F34C211805C44200A66D31 /* GFStopAddingClassesDanny.m in Sources */,
 				D067D7BF1805C15800BC52AA /* GFWillsModel.m in Sources */,
 				4AB6CDDB1805C40100ED1DBD /* theRealRikerLove.m in Sources */,
 				C31F47171805C30B00BE8A6B /* GFMySuperAwesomeOperation.m in Sources */,
