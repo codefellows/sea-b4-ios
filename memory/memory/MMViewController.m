@@ -43,6 +43,8 @@ void caller()
 
     printf( "after: h %d s %d v %d\n", h, s, v );
     printf( "after: arr[0]=%d, arr[1]=%d, arr[2]=%d\n", arr[0], arr[1], arr[2] );
+
+    free( arr );
 }
 
 
