@@ -45,7 +45,6 @@
 		EF18E347180E371D00A27132 /* Localized To Dos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Localized To Dos-Prefix.pch"; sourceTree = "<group>"; };
 		EF18E348180E371D00A27132 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF18E349180E371D00A27132 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EF18E34C180E371D00A27132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF18E351180E371D00A27132 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EF18E357180E371D00A27132 /* Localized To DosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Localized To DosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF18E358180E371D00A27132 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -56,6 +55,21 @@
 		EF18E36F180E3FDB00A27132 /* ToDoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoTableViewController.m; sourceTree = "<group>"; };
 		EF18E371180E44A200A27132 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		EF18E372180E44A200A27132 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		EF2B3A6C180E508600764162 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		EF2B3A6D180E508600764162 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF2B3A6E180E508600764162 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF2B3A6F180E509400764162 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		EF2B3A70180E509400764162 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF2B3A71180E509400764162 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF2B3A72180E509900764162 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		EF2B3A73180E509900764162 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF2B3A74180E509900764162 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF2B3A75180E509F00764162 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		EF2B3A76180E509F00764162 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF2B3A77180E50A000764162 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF2B3A78180E50A500764162 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		EF2B3A79180E50A500764162 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF2B3A7A180E50A500764162 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +230,11 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				de,
+				ja,
+				ko,
+				ar,
 			);
 			mainGroup = EF18E32D180E371D00A27132;
 			productRefGroup = EF18E337180E371D00A27132 /* Products */;
@@ -284,6 +303,11 @@
 			isa = PBXVariantGroup;
 			children = (
 				EF18E343180E371D00A27132 /* en */,
+				EF2B3A6D180E508600764162 /* fr */,
+				EF2B3A70180E509400764162 /* de */,
+				EF2B3A73180E509900764162 /* ja */,
+				EF2B3A76180E509F00764162 /* ko */,
+				EF2B3A79180E50A500764162 /* ar */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -291,7 +315,11 @@
 		EF18E34B180E371D00A27132 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EF18E34C180E371D00A27132 /* Base */,
+				EF2B3A6C180E508600764162 /* fr */,
+				EF2B3A6F180E509400764162 /* de */,
+				EF2B3A72180E509900764162 /* ja */,
+				EF2B3A75180E509F00764162 /* ko */,
+				EF2B3A78180E50A500764162 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -300,6 +328,11 @@
 			isa = PBXVariantGroup;
 			children = (
 				EF18E362180E371E00A27132 /* en */,
+				EF2B3A6E180E508600764162 /* fr */,
+				EF2B3A71180E509400764162 /* de */,
+				EF2B3A74180E509900764162 /* ja */,
+				EF2B3A77180E50A000764162 /* ko */,
+				EF2B3A7A180E50A500764162 /* ar */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
