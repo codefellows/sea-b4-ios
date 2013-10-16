@@ -58,7 +58,10 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     if (indexPath.row == _toDoItems.count) {
-        NSAttributedString *toDoString = [[NSAttributedString alloc] initWithString:@"Add New ToDo"
+        NSString *locString = [[NSBundle mainBundle]
+                               localizedStringForKey:@"Add_New_ToDo_Key"
+                               value:@"Add New ToDo" table:@"Main"];
+        NSAttributedString *toDoString = [[NSAttributedString alloc] initWithString:locString
                                                                          attributes:@{NSStrikethroughStyleAttributeName:[NSNumber numberWithInteger:NSUnderlineStyleNone]}];
         [cell.textLabel setAttributedText:toDoString];
     } else {

@@ -1,24 +1,26 @@
 
 /* Class = "IBUILabel"; text = "Japanese"; ObjectID = "0sQ-Fj-LD9"; */
-"0sQ-Fj-LD9.text" = "Japanese";
+"0sQ-Fj-LD9.text" = "日本人";
 
 /* Class = "IBUIBarButtonItem"; title = "Settings"; ObjectID = "D58-es-VfK"; */
 "D58-es-VfK.title" = "設定";
 
 /* Class = "IBUILabel"; text = "Korean"; ObjectID = "a4a-YN-jxN"; */
-"a4a-YN-jxN.text" = "Korean";
+"a4a-YN-jxN.text" = "韓国語";
 
 /* Class = "IBUILabel"; text = "French"; ObjectID = "dWo-M8-uQL"; */
-"dWo-M8-uQL.text" = "French";
+"dWo-M8-uQL.text" = "フランス語";
 
 /* Class = "IBUINavigationItem"; title = "Local To Do"; ObjectID = "smW-3U-6Ta"; */
-"smW-3U-6Ta.title" = "Local To Do";
+"smW-3U-6Ta.title" = "行うためのローカル";
 
 /* Class = "IBUILabel"; text = "German"; ObjectID = "ssv-kE-NOz"; */
-"ssv-kE-NOz.text" = "German";
+"ssv-kE-NOz.text" = "ドイツ語";
 
 /* Class = "IBUILabel"; text = "Arabic"; ObjectID = "y7r-Ly-IKs"; */
-"y7r-Ly-IKs.text" = "Arabic";
+"y7r-Ly-IKs.text" = "アラビア語";
 
 /* Class = "IBUILabel"; text = "English"; ObjectID = "zxG-Lk-X6b"; */
-"zxG-Lk-X6b.text" = "English";
+"zxG-Lk-X6b.text" = "英語";
+
+"Add_New_ToDo_Key" = "新規のToDoを追加";
