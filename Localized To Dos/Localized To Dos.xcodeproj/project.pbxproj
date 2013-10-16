@@ -14,13 +14,14 @@
 		EF18E346180E371D00A27132 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF18E345180E371D00A27132 /* main.m */; };
 		EF18E34A180E371D00A27132 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF18E349180E371D00A27132 /* AppDelegate.m */; };
 		EF18E34D180E371D00A27132 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF18E34B180E371D00A27132 /* Main.storyboard */; };
-		EF18E350180E371D00A27132 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF18E34F180E371D00A27132 /* ViewController.m */; };
 		EF18E352180E371D00A27132 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF18E351180E371D00A27132 /* Images.xcassets */; };
 		EF18E359180E371D00A27132 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF18E358180E371D00A27132 /* XCTest.framework */; };
 		EF18E35A180E371D00A27132 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF18E339180E371D00A27132 /* Foundation.framework */; };
 		EF18E35B180E371D00A27132 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF18E33D180E371D00A27132 /* UIKit.framework */; };
 		EF18E363180E371E00A27132 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF18E361180E371E00A27132 /* InfoPlist.strings */; };
 		EF18E365180E371E00A27132 /* Localized_To_DosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF18E364180E371E00A27132 /* Localized_To_DosTests.m */; };
+		EF18E370180E3FDB00A27132 /* ToDoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF18E36F180E3FDB00A27132 /* ToDoTableViewController.m */; };
+		EF18E373180E44A200A27132 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF18E372180E44A200A27132 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		EF18E348180E371D00A27132 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF18E349180E371D00A27132 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EF18E34C180E371D00A27132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EF18E34E180E371D00A27132 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EF18E34F180E371D00A27132 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EF18E351180E371D00A27132 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EF18E357180E371D00A27132 /* Localized To DosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Localized To DosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF18E358180E371D00A27132 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EF18E360180E371E00A27132 /* Localized To DosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Localized To DosTests-Info.plist"; sourceTree = "<group>"; };
 		EF18E362180E371E00A27132 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF18E364180E371E00A27132 /* Localized_To_DosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Localized_To_DosTests.m; sourceTree = "<group>"; };
+		EF18E36E180E3FDB00A27132 /* ToDoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoTableViewController.h; sourceTree = "<group>"; };
+		EF18E36F180E3FDB00A27132 /* ToDoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoTableViewController.m; sourceTree = "<group>"; };
+		EF18E371180E44A200A27132 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		EF18E372180E44A200A27132 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +118,12 @@
 				EF18E348180E371D00A27132 /* AppDelegate.h */,
 				EF18E349180E371D00A27132 /* AppDelegate.m */,
 				EF18E34B180E371D00A27132 /* Main.storyboard */,
-				EF18E34E180E371D00A27132 /* ViewController.h */,
-				EF18E34F180E371D00A27132 /* ViewController.m */,
 				EF18E351180E371D00A27132 /* Images.xcassets */,
 				EF18E340180E371D00A27132 /* Supporting Files */,
+				EF18E36E180E3FDB00A27132 /* ToDoTableViewController.h */,
+				EF18E36F180E3FDB00A27132 /* ToDoTableViewController.m */,
+				EF18E371180E44A200A27132 /* SettingsViewController.h */,
+				EF18E372180E44A200A27132 /* SettingsViewController.m */,
 			);
 			path = "Localized To Dos";
 			sourceTree = "<group>";
@@ -249,9 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF18E350180E371D00A27132 /* ViewController.m in Sources */,
+				EF18E370180E3FDB00A27132 /* ToDoTableViewController.m in Sources */,
 				EF18E34A180E371D00A27132 /* AppDelegate.m in Sources */,
 				EF18E346180E371D00A27132 /* main.m in Sources */,
+				EF18E373180E44A200A27132 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +460,7 @@
 				EF18E36A180E371E00A27132 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF18E36B180E371E00A27132 /* Build configuration list for PBXNativeTarget "Localized To DosTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +469,7 @@
 				EF18E36D180E371E00A27132 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

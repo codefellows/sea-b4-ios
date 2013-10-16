@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ToDoTableViewController.h
 //  Localized To Dos
 //
 //  Created by John Clem on 10/15/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ToDoTableViewController : UITableViewController
 
 @end
