@@ -8,7 +8,7 @@
 
 #import "ToDoTableViewController.h"
 
-@interface ToDoTableViewController ()
+@interface ToDoTableViewController () <UIAlertViewDelegate>
 
 @property (nonatomic, strong) NSMutableArray *toDoItems;
 
@@ -29,21 +29,10 @@
 {
     [super viewDidLoad];
 
-    _toDoItems = [NSMutableArray new];
-    [self addSomeToDoItems];
+    _toDoItems = [[NSMutableArray alloc] initWithObjects:@"Localize This App", nil];
 
      self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
-
-- (void)addSomeToDoItems
-{
-    for (int i=1; i<6; i++) {
-        NSString *toDoString = [NSString stringWithFormat:@"To Do Item #%d", i];
-        [_toDoItems addObject:toDoString];
-    }
-    [self.tableView reloadData];
-}
-
 
 - (void)didReceiveMemoryWarning
 {
@@ -60,7 +49,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return _toDoItems.count;
+    return _toDoItems.count+1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -68,14 +57,24 @@
     static NSString *CellIdentifier = @"ToDoItemCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    [cell.textLabel setText:[_toDoItems objectAtIndex:indexPath.row]];
+    if (indexPath.row == _toDoItems.count) {
+        NSAttributedString *toDoString = [[NSAttributedString alloc] initWithString:@"Add New ToDo"
+                                                                         attributes:@{NSStrikethroughStyleAttributeName:[NSNumber numberWithInteger:NSUnderlineStyleNone]}];
+        [cell.textLabel setAttributedText:toDoString];
+    } else {
+        NSAttributedString *toDoString = [[NSAttributedString alloc] initWithString:_toDoItems[indexPath.row]
+                                                                         attributes:@{NSStrikethroughStyleAttributeName:[NSNumber numberWithInteger:NSUnderlineStyleNone]}];
+        [cell.textLabel setAttributedText:toDoString];
+    }
     
     return cell;
 }
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // Return NO if you do not want the specified item to be editable.
+    if (indexPath.row == _toDoItems.count) {
+        return NO;
+    }
     return YES;
 }
 
@@ -101,7 +100,31 @@
 - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Return NO if you do not want the item to be re-orderable.
-    return YES;
+    return NO;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    
+    if (indexPath.row == _toDoItems.count) {
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Add ToDo Item" message:nil delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Add", nil];
+        [alertView setAlertViewStyle:UIAlertViewStylePlainTextInput];
+        [alertView show];
+    } else {
+        NSAttributedString *toDoString = [[NSAttributedString alloc] initWithString:_toDoItems[indexPath.row]
+                                                                         attributes:@{NSStrikethroughStyleAttributeName:[NSNumber numberWithInteger:NSUnderlineStyleSingle]}];
+        [cell.textLabel setAttributedText:toDoString];
+    }
+}
+
+#pragma mark - UIAlertViewDelegate
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    NSString *newItemString = [[alertView textFieldAtIndex:0] text];
+    [_toDoItems addObject:newItemString];
+    [self.tableView reloadData];
 }
 
 @end

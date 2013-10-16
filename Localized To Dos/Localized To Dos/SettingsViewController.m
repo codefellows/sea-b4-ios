@@ -10,7 +10,7 @@
 
 @interface SettingsViewController ()
 {
-    NSArray *switches;
+    NSArray *switches, *languages;
     __weak IBOutlet UISwitch *english, *french, *german, *japanese, *korean, *arabic;
 }
 @end
@@ -22,6 +22,7 @@
     [super viewDidLoad];
 
     switches = [NSArray arrayWithObjects:english, french, german, japanese, korean, arabic, nil];
+    languages = [NSArray arrayWithObjects:@"english", @"french", @"german", @"japanese", @"korean", @"arabic", nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -32,6 +33,8 @@
 
 - (IBAction)switchLanguage:(id)sender
 {
+    NSLog(@"Switching To %@", languages[[(UISwitch*)sender tag] ]);
+    
     for (UISwitch *langSwitch in switches) {
         if ([sender isEqual:langSwitch]) {
             [langSwitch setUserInteractionEnabled:NO];
