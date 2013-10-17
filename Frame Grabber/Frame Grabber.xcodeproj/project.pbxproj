@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF4F08BC180DA1E900D3F831 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4F08BB180DA1E900D3F831 /* Cocoa.framework */; };
+		EF4F08C6180DA1E900D3F831 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF4F08C4180DA1E900D3F831 /* InfoPlist.strings */; };
+		EF4F08C8180DA1E900D3F831 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4F08C7180DA1E900D3F831 /* main.m */; };
+		EF4F08CC180DA1E900D3F831 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EF4F08CA180DA1E900D3F831 /* Credits.rtf */; };
+		EF4F08CF180DA1E900D3F831 /* PSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4F08CE180DA1E900D3F831 /* PSAppDelegate.m */; };
+		EF4F08D2180DA1E900D3F831 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4F08D0180DA1E900D3F831 /* MainMenu.xib */; };
+		EF4F08D4180DA1E900D3F831 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4F08D3180DA1E900D3F831 /* Images.xcassets */; };
+		EF4F08DB180DA1E900D3F831 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4F08DA180DA1E900D3F831 /* XCTest.framework */; };
+		EF4F08DC180DA1EA00D3F831 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4F08BB180DA1E900D3F831 /* Cocoa.framework */; };
+		EF4F08E4180DA1EA00D3F831 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF4F08E2180DA1EA00D3F831 /* InfoPlist.strings */; };
+		EF4F08E6180DA1EA00D3F831 /* Frame_GrabberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4F08E5180DA1EA00D3F831 /* Frame_GrabberTests.m */; };
+		EF4F08F0180DA20F00D3F831 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4F08EF180DA20F00D3F831 /* QTKit.framework */; };
+		EF4F08F2180DA30100D3F831 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4F08F1180DA30100D3F831 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF4F08DD180DA1EA00D3F831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4F08B0180DA1E900D3F831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4F08B7180DA1E900D3F831;
+			remoteInfo = "Frame Grabber";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF4F08B8180DA1E900D3F831 /* Frame Grabber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Frame Grabber.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4F08BB180DA1E900D3F831 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EF4F08BE180DA1E900D3F831 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EF4F08BF180DA1E900D3F831 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EF4F08C0180DA1E900D3F831 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF4F08C3180DA1E900D3F831 /* Frame Grabber-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Frame Grabber-Info.plist"; sourceTree = "<group>"; };
+		EF4F08C5180DA1E900D3F831 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF4F08C7180DA1E900D3F831 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF4F08C9180DA1E900D3F831 /* Frame Grabber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Frame Grabber-Prefix.pch"; sourceTree = "<group>"; };
+		EF4F08CB180DA1E900D3F831 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EF4F08CD180DA1E900D3F831 /* PSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAppDelegate.h; sourceTree = "<group>"; };
+		EF4F08CE180DA1E900D3F831 /* PSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSAppDelegate.m; sourceTree = "<group>"; };
+		EF4F08D1180DA1E900D3F831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EF4F08D3180DA1E900D3F831 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF4F08D9180DA1E900D3F831 /* Frame GrabberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frame GrabberTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4F08DA180DA1E900D3F831 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF4F08E1180DA1EA00D3F831 /* Frame GrabberTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Frame GrabberTests-Info.plist"; sourceTree = "<group>"; };
+		EF4F08E3180DA1EA00D3F831 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF4F08E5180DA1EA00D3F831 /* Frame_GrabberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Frame_GrabberTests.m; sourceTree = "<group>"; };
+		EF4F08EF180DA20F00D3F831 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		EF4F08F1180DA30100D3F831 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF4F08B5180DA1E900D3F831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4F08F2180DA30100D3F831 /* QuartzCore.framework in Frameworks */,
+				EF4F08F0180DA20F00D3F831 /* QTKit.framework in Frameworks */,
+				EF4F08BC180DA1E900D3F831 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4F08D6180DA1E900D3F831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4F08DC180DA1EA00D3F831 /* Cocoa.framework in Frameworks */,
+				EF4F08DB180DA1E900D3F831 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF4F08AF180DA1E900D3F831 = {
+			isa = PBXGroup;
+			children = (
+				EF4F08C1180DA1E900D3F831 /* Frame Grabber */,
+				EF4F08DF180DA1EA00D3F831 /* Frame GrabberTests */,
+				EF4F08BA180DA1E900D3F831 /* Frameworks */,
+				EF4F08B9180DA1E900D3F831 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF4F08B9180DA1E900D3F831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF4F08B8180DA1E900D3F831 /* Frame Grabber.app */,
+				EF4F08D9180DA1E900D3F831 /* Frame GrabberTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF4F08BA180DA1E900D3F831 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF4F08F1180DA30100D3F831 /* QuartzCore.framework */,
+				EF4F08EF180DA20F00D3F831 /* QTKit.framework */,
+				EF4F08BB180DA1E900D3F831 /* Cocoa.framework */,
+				EF4F08DA180DA1E900D3F831 /* XCTest.framework */,
+				EF4F08BD180DA1E900D3F831 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF4F08BD180DA1E900D3F831 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF4F08BE180DA1E900D3F831 /* AppKit.framework */,
+				EF4F08BF180DA1E900D3F831 /* CoreData.framework */,
+				EF4F08C0180DA1E900D3F831 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EF4F08C1180DA1E900D3F831 /* Frame Grabber */ = {
+			isa = PBXGroup;
+			children = (
+				EF4F08CD180DA1E900D3F831 /* PSAppDelegate.h */,
+				EF4F08CE180DA1E900D3F831 /* PSAppDelegate.m */,
+				EF4F08D0180DA1E900D3F831 /* MainMenu.xib */,
+				EF4F08D3180DA1E900D3F831 /* Images.xcassets */,
+				EF4F08C2180DA1E900D3F831 /* Supporting Files */,
+			);
+			path = "Frame Grabber";
+			sourceTree = "<group>";
+		};
+		EF4F08C2180DA1E900D3F831 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF4F08C3180DA1E900D3F831 /* Frame Grabber-Info.plist */,
+				EF4F08C4180DA1E900D3F831 /* InfoPlist.strings */,
+				EF4F08C7180DA1E900D3F831 /* main.m */,
+				EF4F08C9180DA1E900D3F831 /* Frame Grabber-Prefix.pch */,
+				EF4F08CA180DA1E900D3F831 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF4F08DF180DA1EA00D3F831 /* Frame GrabberTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4F08E5180DA1EA00D3F831 /* Frame_GrabberTests.m */,
+				EF4F08E0180DA1EA00D3F831 /* Supporting Files */,
+			);
+			path = "Frame GrabberTests";
+			sourceTree = "<group>";
+		};
+		EF4F08E0180DA1EA00D3F831 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF4F08E1180DA1EA00D3F831 /* Frame GrabberTests-Info.plist */,
+				EF4F08E2180DA1EA00D3F831 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF4F08B7180DA1E900D3F831 /* Frame Grabber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4F08E9180DA1EA00D3F831 /* Build configuration list for PBXNativeTarget "Frame Grabber" */;
+			buildPhases = (
+				EF4F08B4180DA1E900D3F831 /* Sources */,
+				EF4F08B5180DA1E900D3F831 /* Frameworks */,
+				EF4F08B6180DA1E900D3F831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Frame Grabber";
+			productName = "Frame Grabber";
+			productReference = EF4F08B8180DA1E900D3F831 /* Frame Grabber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF4F08D8180DA1E900D3F831 /* Frame GrabberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4F08EC180DA1EA00D3F831 /* Build configuration list for PBXNativeTarget "Frame GrabberTests" */;
+			buildPhases = (
+				EF4F08D5180DA1E900D3F831 /* Sources */,
+				EF4F08D6180DA1E900D3F831 /* Frameworks */,
+				EF4F08D7180DA1E900D3F831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4F08DE180DA1EA00D3F831 /* PBXTargetDependency */,
+			);
+			name = "Frame GrabberTests";
+			productName = "Frame GrabberTests";
+			productReference = EF4F08D9180DA1E900D3F831 /* Frame GrabberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF4F08B0180DA1E900D3F831 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Mind Diaper";
+				TargetAttributes = {
+					EF4F08D8180DA1E900D3F831 = {
+						TestTargetID = EF4F08B7180DA1E900D3F831;
+					};
+				};
+			};
+			buildConfigurationList = EF4F08B3180DA1E900D3F831 /* Build configuration list for PBXProject "Frame Grabber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF4F08AF180DA1E900D3F831;
+			productRefGroup = EF4F08B9180DA1E900D3F831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF4F08B7180DA1E900D3F831 /* Frame Grabber */,
+				EF4F08D8180DA1E900D3F831 /* Frame GrabberTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF4F08B6180DA1E900D3F831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4F08C6180DA1E900D3F831 /* InfoPlist.strings in Resources */,
+				EF4F08D4180DA1E900D3F831 /* Images.xcassets in Resources */,
+				EF4F08CC180DA1E900D3F831 /* Credits.rtf in Resources */,
+				EF4F08D2180DA1E900D3F831 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4F08D7180DA1E900D3F831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4F08E4180DA1EA00D3F831 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF4F08B4180DA1E900D3F831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4F08C8180DA1E900D3F831 /* main.m in Sources */,
+				EF4F08CF180DA1E900D3F831 /* PSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4F08D5180DA1E900D3F831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4F08E6180DA1EA00D3F831 /* Frame_GrabberTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF4F08DE180DA1EA00D3F831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4F08B7180DA1E900D3F831 /* Frame Grabber */;
+			targetProxy = EF4F08DD180DA1EA00D3F831 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF4F08C4180DA1E900D3F831 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4F08C5180DA1E900D3F831 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF4F08CA180DA1E900D3F831 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4F08CB180DA1E900D3F831 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EF4F08D0180DA1E900D3F831 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4F08D1180DA1E900D3F831 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		EF4F08E2180DA1EA00D3F831 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4F08E3180DA1EA00D3F831 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF4F08E7180DA1EA00D3F831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EF4F08E8180DA1EA00D3F831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EF4F08EA180DA1EA00D3F831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Frame Grabber/Frame Grabber-Prefix.pch";
+				INFOPLIST_FILE = "Frame Grabber/Frame Grabber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF4F08EB180DA1EA00D3F831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Frame Grabber/Frame Grabber-Prefix.pch";
+				INFOPLIST_FILE = "Frame Grabber/Frame Grabber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF4F08ED180DA1EA00D3F831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Frame Grabber.app/Contents/MacOS/Frame Grabber";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Frame Grabber/Frame Grabber-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Frame GrabberTests/Frame GrabberTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF4F08EE180DA1EA00D3F831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Frame Grabber.app/Contents/MacOS/Frame Grabber";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Frame Grabber/Frame Grabber-Prefix.pch";
+				INFOPLIST_FILE = "Frame GrabberTests/Frame GrabberTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF4F08B3180DA1E900D3F831 /* Build configuration list for PBXProject "Frame Grabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4F08E7180DA1EA00D3F831 /* Debug */,
+				EF4F08E8180DA1EA00D3F831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4F08E9180DA1EA00D3F831 /* Build configuration list for PBXNativeTarget "Frame Grabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4F08EA180DA1EA00D3F831 /* Debug */,
+				EF4F08EB180DA1EA00D3F831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF4F08EC180DA1EA00D3F831 /* Build configuration list for PBXNativeTarget "Frame GrabberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4F08ED180DA1EA00D3F831 /* Debug */,
+				EF4F08EE180DA1EA00D3F831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF4F08B0180DA1E900D3F831 /* Project object */;
+}
