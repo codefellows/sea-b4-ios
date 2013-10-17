@@ -22,6 +22,8 @@
 		EF18E365180E371E00A27132 /* Localized_To_DosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF18E364180E371E00A27132 /* Localized_To_DosTests.m */; };
 		EF18E370180E3FDB00A27132 /* ToDoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF18E36F180E3FDB00A27132 /* ToDoTableViewController.m */; };
 		EF18E373180E44A200A27132 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF18E372180E44A200A27132 /* SettingsViewController.m */; };
+		EF2F0FDE1810519C007D4C23 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF2F0FDC1810519C007D4C23 /* Localizable.strings */; };
+		EF2F0FE0181051E0007D4C23 /* Localized To Dos-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF18E341180E371D00A27132 /* Localized To Dos-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		EF18E339180E371D00A27132 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EF18E33B180E371D00A27132 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		EF18E33D180E371D00A27132 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		EF18E341180E371D00A27132 /* Localized To Dos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Localized To Dos-Info.plist"; sourceTree = "<group>"; };
+		EF18E341180E371D00A27132 /* Localized To Dos-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Localized To Dos-Info.plist"; sourceTree = "<group>"; };
 		EF18E343180E371D00A27132 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF18E345180E371D00A27132 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF18E347180E371D00A27132 /* Localized To Dos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Localized To Dos-Prefix.pch"; sourceTree = "<group>"; };
@@ -70,6 +72,12 @@
 		EF2B3A78180E50A500764162 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
 		EF2B3A79180E50A500764162 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF2B3A7A180E50A500764162 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF2F0FDD1810519C007D4C23 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EF2F0FDF181051E0007D4C23 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EF2F0FE1181051EA007D4C23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EF2F0FE2181051EF007D4C23 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EF2F0FE3181051F5007D4C23 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EF2F0FE4181051F9007D4C23 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +153,7 @@
 		EF18E340180E371D00A27132 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EF2F0FDC1810519C007D4C23 /* Localizable.strings */,
 				EF18E341180E371D00A27132 /* Localized To Dos-Info.plist */,
 				EF18E342180E371D00A27132 /* InfoPlist.strings */,
 				EF18E345180E371D00A27132 /* main.m */,
@@ -253,7 +262,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF18E352180E371D00A27132 /* Images.xcassets in Resources */,
+				EF2F0FDE1810519C007D4C23 /* Localizable.strings in Resources */,
 				EF18E344180E371D00A27132 /* InfoPlist.strings in Resources */,
+				EF2F0FE0181051E0007D4C23 /* Localized To Dos-Info.plist in Resources */,
 				EF18E34D180E371D00A27132 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +346,19 @@
 				EF2B3A7A180E50A500764162 /* ar */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF2F0FDC1810519C007D4C23 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2F0FDD1810519C007D4C23 /* de */,
+				EF2F0FDF181051E0007D4C23 /* ar */,
+				EF2F0FE1181051EA007D4C23 /* en */,
+				EF2F0FE2181051EF007D4C23 /* fr */,
+				EF2F0FE3181051F5007D4C23 /* ja */,
+				EF2F0FE4181051F9007D4C23 /* ko */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
