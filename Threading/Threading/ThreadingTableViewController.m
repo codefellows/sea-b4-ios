@@ -11,7 +11,7 @@
 
 @interface ThreadingTableViewController ()
 {
-    NSArray *puppyURLs;
+    NSArray *puppies;
 }
 @end
 
@@ -30,14 +30,16 @@
 {
     [super viewDidLoad];
     
-    puppyURLs = [[NSArray alloc] initWithObjects:
-                 @"http://puppyice.com/wp-content/uploads/2013/05/Puppies.jpg",
-                 @"http://sumasshepherds.files.wordpress.com/2010/09/puppies-034.jpg",
-                 @"http://s3.amazonaws.com/content.sitezoogle.com/u/23681/6292b4814f11f9d83a93281581be51a8c1ed3e65/original/Harley_Fatz1.JPG?1362319593",
-                 @"http://wallcapture.com/wp-content/uploads/2013/07/Puppies-Picture-Wallpaper-Dekstop.jpg",
-                 @"http://pitkrewkennels.com/wp-content/uploads/2011/03/Havoc-Mia-Puppies.jpg",
-                 nil];
-                 
+    Puppy *puppy1 = [[Puppy alloc] initWithPath:@"http://sumasshepherds.files.wordpress.com/2010/09/puppies-034.jpg"];
+    Puppy *puppy2 = [[Puppy alloc] initWithPath:@"http://puppyice.com/wp-content/uploads/2013/05/Puppies.jpg"];
+    Puppy *puppy3 = [[Puppy alloc] initWithPath:@"http://s3.amazonaws.com/content.sitezoogle.com/u/23681/6292b4814f11f9d83a93281581be51a8c1ed3e65/original/Harley_Fatz1.JPG?1362319593"];
+    Puppy *puppy4 = [[Puppy alloc] initWithPath:@"http://wallcapture.com/wp-content/uploads/2013/07/Puppies-Picture-Wallpaper-Dekstop.jpg"];
+    Puppy *puppy5 = [[Puppy alloc] initWithPath:@"http://pitkrewkennels.com/wp-content/uploads/2011/03/Havoc-Mia-Puppies.jpg"];
+    
+    
+    puppies = [[NSArray alloc] initWithObjects:puppy1, puppy2, puppy3, puppy4, puppy5,
+               nil];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -68,20 +70,22 @@
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    UIImage *cellImage = [self downloadImageForIndexPath:indexPath];
+    Puppy *puppyForRow = puppies[indexPath.row];
+    UIImage *cellImage = [self downloadImageForPuppy:puppyForRow];
+    [puppyForRow setImage:cellImage];
     
-    [cell.textLabel setText:[NSString stringWithFormat:@"Puppy %d", indexPath.row]];
-    [cell.imageView setImage:cellImage];
+    [cell.textLabel setText:puppyForRow.path];
+    [cell.imageView setImage:puppyForRow.image];
     
     return cell;
 }
 
-- (UIImage *)downloadImageForIndexPath:(NSIndexPath *)indexPath
+- (UIImage *)downloadImageForPuppy:(Puppy *)puppy
 {
-    NSURL *imageURL = [NSURL URLWithString:[puppyURLs objectAtIndex:indexPath.row]];
-    NSData *imageData = [NSData dataWithContentsOfURL:imageURL];
-    
-    return [UIImage imageWithData:imageData];
+    NSData *imageData = [NSData dataWithContentsOfURL:puppy.url];
+    UIImage *puppyImage = [UIImage imageWithData:imageData];
+    return puppyImage;
+
 }
 
 - (IBAction)reloadTable:(id)sender
