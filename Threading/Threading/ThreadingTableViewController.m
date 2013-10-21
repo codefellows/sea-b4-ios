@@ -7,6 +7,7 @@
 //
 
 #import "ThreadingTableViewController.h"
+#import "Puppy.h"
 
 @interface ThreadingTableViewController ()
 {

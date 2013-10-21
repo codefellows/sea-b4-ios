@@ -21,6 +21,7 @@
 		EF91D0A41815868C00F6947B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF91D0A21815868C00F6947B /* InfoPlist.strings */; };
 		EF91D0A61815868C00F6947B /* ThreadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF91D0A51815868C00F6947B /* ThreadingTests.m */; };
 		EF91D0B1181586D800F6947B /* ThreadingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF91D0B0181586D800F6947B /* ThreadingTableViewController.m */; };
+		EF91D0B718159C2B00F6947B /* Puppy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF91D0B618159C2B00F6947B /* Puppy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		EF91D0A51815868C00F6947B /* ThreadingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadingTests.m; sourceTree = "<group>"; };
 		EF91D0AF181586D800F6947B /* ThreadingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadingTableViewController.h; sourceTree = "<group>"; };
 		EF91D0B0181586D800F6947B /* ThreadingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadingTableViewController.m; sourceTree = "<group>"; };
+		EF91D0B518159C2B00F6947B /* Puppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Puppy.h; sourceTree = "<group>"; };
+		EF91D0B618159C2B00F6947B /* Puppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Puppy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				EF91D07E1815868C00F6947B /* Supporting Files */,
 				EF91D0AF181586D800F6947B /* ThreadingTableViewController.h */,
 				EF91D0B0181586D800F6947B /* ThreadingTableViewController.m */,
+				EF91D0B518159C2B00F6947B /* Puppy.h */,
+				EF91D0B618159C2B00F6947B /* Puppy.m */,
 			);
 			path = Threading;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF91D0B718159C2B00F6947B /* Puppy.m in Sources */,
 				EF91D0881815868C00F6947B /* AppDelegate.m in Sources */,
 				EF91D0B1181586D800F6947B /* ThreadingTableViewController.m in Sources */,
 				EF91D0841815868C00F6947B /* main.m in Sources */,
