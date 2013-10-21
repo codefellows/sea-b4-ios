@@ -14,7 +14,6 @@
 		EF91D0841815868C00F6947B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF91D0831815868C00F6947B /* main.m */; };
 		EF91D0881815868C00F6947B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF91D0871815868C00F6947B /* AppDelegate.m */; };
 		EF91D08B1815868C00F6947B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF91D0891815868C00F6947B /* Main.storyboard */; };
-		EF91D0911815868C00F6947B /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF91D0901815868C00F6947B /* FlipsideViewController.m */; };
 		EF91D0931815868C00F6947B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF91D0921815868C00F6947B /* Images.xcassets */; };
 		EF91D09A1815868C00F6947B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF91D0991815868C00F6947B /* XCTest.framework */; };
 		EF91D09B1815868C00F6947B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF91D0771815868C00F6947B /* Foundation.framework */; };
@@ -46,8 +45,6 @@
 		EF91D0861815868C00F6947B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF91D0871815868C00F6947B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EF91D08A1815868C00F6947B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EF91D08F1815868C00F6947B /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
-		EF91D0901815868C00F6947B /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
 		EF91D0921815868C00F6947B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EF91D0981815868C00F6947B /* ThreadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreadingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF91D0991815868C00F6947B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -118,8 +115,6 @@
 				EF91D0861815868C00F6947B /* AppDelegate.h */,
 				EF91D0871815868C00F6947B /* AppDelegate.m */,
 				EF91D0891815868C00F6947B /* Main.storyboard */,
-				EF91D08F1815868C00F6947B /* FlipsideViewController.h */,
-				EF91D0901815868C00F6947B /* FlipsideViewController.m */,
 				EF91D0921815868C00F6947B /* Images.xcassets */,
 				EF91D07E1815868C00F6947B /* Supporting Files */,
 				EF91D0AF181586D800F6947B /* ThreadingTableViewController.h */,
@@ -256,7 +251,6 @@
 			files = (
 				EF91D0881815868C00F6947B /* AppDelegate.m in Sources */,
 				EF91D0B1181586D800F6947B /* ThreadingTableViewController.m in Sources */,
-				EF91D0911815868C00F6947B /* FlipsideViewController.m in Sources */,
 				EF91D0841815868C00F6947B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +460,7 @@
 				EF91D0AB1815868C00F6947B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF91D0AC1815868C00F6947B /* Build configuration list for PBXNativeTarget "ThreadingTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +469,7 @@
 				EF91D0AE1815868C00F6947B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

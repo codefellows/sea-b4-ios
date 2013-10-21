@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FlipsideViewController.h"
 
-@interface ThreadingTableViewController : UITableViewController <FlipsideViewControllerDelegate>
+@interface ThreadingTableViewController : UITableViewController
+
+- (IBAction)reloadTable:(id)sender;
 
 @end
