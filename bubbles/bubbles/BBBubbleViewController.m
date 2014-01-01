@@ -13,6 +13,7 @@
 #import "UIColor+RandomColor.h"
 
 
+
 static const NSInteger nSubBubbles = 4;
 static const CGFloat subBubbleRelativeSize = 1./5.;
 static const CGFloat pushMagnitude = 0.01;
